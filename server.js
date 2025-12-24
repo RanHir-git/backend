@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
@@ -46,6 +47,7 @@ if (process.env.NODE_ENV === 'production') {
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
+import { uploadRoutes } from './api/upload/upload.routes.js'
 
 
 // routes
@@ -55,6 +57,7 @@ app.all('/*all', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)
+app.use('/api/upload', uploadRoutes)
 
 app.get('/*all', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))

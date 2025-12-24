@@ -2,17 +2,17 @@
   "_id": {
     "$oid": "6693c0ac62157821fbb7cb3e"
   },
-  "username": "admin",
-  "password": "$2b$10$iWqUz1zcd18tlrkTCWr/u.akZpFCfhS3CmYe28o2DQLHN9/KLC8YW",
-  "fullname": "Mister-Toy",
-  "isAdmin": true
+    "email": "admin@gamil.com",
+    "fullname": "Admin",
+    "password": "aaa",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
 },
 {
   "_id": {
     "$oid": "669ebd75f0de93587962c526"
   },
-  "username": "test",
-  "password": "$2b$10$aElIys4bm6Nx0ZSpvevfG.2vxyQ/T/ISrPmhpMuHRbwZ/R/VO.1hm",
+  "email": "test@gamil.com",
+  "password": "aaa",
   "fullname": "test",
-  "isAdmin": false
+  "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
 }]

@@ -1,7 +1,5 @@
 [{
-  "_id": {
-    "$oid": "6693c0ac62157821fbb7cb3f"
-  },
+  "_id": "6693c0ac62157821fbb7cb3f",
   "title": "New Zealand Trip",
   "isStarred": false,
   "archivedAt": null,

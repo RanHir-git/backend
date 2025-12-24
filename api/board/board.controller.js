@@ -40,11 +40,13 @@ export async function updateBoard(req, res) {
     const board = req.body
     // Ensure the _id from params matches the body _id
     board._id = req.params.id
+    logger.debug(`updateBoard - received board ID from params: ${req.params.id}, type: ${typeof req.params.id}`)
+    logger.debug(`updateBoard - board._id before update: ${board._id}, type: ${typeof board._id}`)
     const savedBoard = await boardService.update(board)
     res.send(savedBoard)
   } catch (err) {
     logger.error('Failed to update board', err)
-    res.status(500).send({ err: 'Failed to update board' })
+    res.status(500).send({ err: 'Failed to update board', details: err.message })
   }
 }
 

@@ -6,7 +6,7 @@ import { logger } from '../../services/logger.service.js'
 export const userService = {
   query,
   getById,
-  getByUsername,
+  getByEmail,
   remove,
   update,
   add,
@@ -16,9 +16,9 @@ async function query(filterBy = {}) {
   const criteria = _buildCriteria(filterBy)
   try {
     const collection = await dbService.getCollection('user')
-    var users = await collection.find(criteria).sort({ username: -1 }).toArray()
+    var users = await collection.find(criteria).sort({ email: -1 }).toArray()
     users = users.map((user) => {
-      delete user.password
+      // delete user.password
       user.createdAt = user._id.getTimestamp()
       // Returning fake fresh data
       // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
@@ -35,20 +35,20 @@ async function getById(userId) {
   try {
     const collection = await dbService.getCollection('user')
     const user = await collection.findOne({ _id: ObjectId.createFromHexString(userId) })
-    delete user.password
+    // delete user.password
     return user
   } catch (err) {
     logger.error(`while finding user ${userId}`, err)
     throw err
   }
 }
-async function getByUsername(username) {
+async function getByEmail(email) {
   try {
     const collection = await dbService.getCollection('user')
-    const user = await collection.findOne({ username })
+    const user = await collection.findOne({ email })
     return user
   } catch (err) {
-    logger.error(`while finding user ${username}`, err)
+    logger.error(`while finding user ${email}`, err)
     throw err
   }
 }
@@ -68,7 +68,7 @@ async function update(user) {
     // peek only updatable fields!
     const userToSave = {
       _id: ObjectId.createFromHexString(user._id),
-      username: user.username,
+      email: user.email,
       fullname: user.fullname,
     }
     const collection = await dbService.getCollection('user')
@@ -83,13 +83,13 @@ async function update(user) {
 async function add(user) {
   try {
     // Validate that there are no such user:
-    const existUser = await getByUsername(user.username)
-    if (existUser) throw new Error('Username taken')
+    const existUser = await getByEmail(user.email)
+    if (existUser) throw new Error('Email taken')
 
     // peek only updatable fields!
     const userToAdd = {
-      username: user.username,
-      password: user.password,
+      email: user.email,
+      // password: user.password,
       fullname: user.fullname,
       isAdmin: false,
     }
@@ -108,7 +108,7 @@ function _buildCriteria(filterBy) {
     const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
     criteria.$or = [
       {
-        username: txtCriteria,
+        email: txtCriteria,
       },
       {
         fullname: txtCriteria,

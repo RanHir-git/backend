@@ -18,9 +18,17 @@ async function loadJson(relativePath) {
 
 function reviveIds(docs) {
   return docs.map(doc => {
-    if (doc._id && doc._id.$oid) {
+    if (!doc._id) return doc
+    
+    // Handle MongoDB extended JSON format { $oid: "..." }
+    if (doc._id.$oid) {
       return { ...doc, _id: new ObjectId(doc._id.$oid) }
     }
+    // Handle string ID format (new format)
+    else if (typeof doc._id === 'string') {
+      return { ...doc, _id: new ObjectId(doc._id) }
+    }
+    // If already an ObjectId, keep it
     return doc
   })
 }

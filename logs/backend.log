@@ -422,3 +422,196 @@
 24.12.2025, 19:47:21 - INFO - File uploaded successfully: | task-attachments/j4rkqzi1xtiw0i96780p 
 24.12.2025, 19:47:21 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
 24.12.2025, 19:47:21 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:21:19 - INFO - server.js loaded... 
+24.12.2025, 20:21:19 - INFO - Server is running on port: 3030 
+24.12.2025, 20:23:22 - DEBUG - auth.service - signup with email: ranhirschorn@gmail.com, fullname: Ran Hirschorn 
+24.12.2025, 20:23:22 - DEBUG - auth.route - new account created: {"email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false,"_id":"694c2f9af0fb6f88a289e8e1"} 
+24.12.2025, 20:26:55 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:26:55 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:27:54 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:27:54 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:27 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:27 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:30 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:30 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:32 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:32 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:40 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:40 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:42 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:42 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:54 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:28:54 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:22 - INFO - File uploaded successfully: | task-attachments/nwbimejlkm9mz3w7hd9t 
+24.12.2025, 20:29:22 - INFO - File uploaded successfully: | task-attachments/nwbimejlkm9mz3w7hd9t 
+24.12.2025, 20:29:23 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:23 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:23 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:23 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:34 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:34 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:50 - INFO - File uploaded successfully: | task-attachments/uqbmjuid8cw5tn028vvj 
+24.12.2025, 20:29:50 - INFO - File uploaded successfully: | task-attachments/uqbmjuid8cw5tn028vvj 
+24.12.2025, 20:29:50 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:50 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:57 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:29:57 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:30:04 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:30:04 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:32:55 - DEBUG - updateBoard - received board ID from params: 6693c0ac62157821fbb7cb3f, type: string 
+24.12.2025, 20:32:55 - DEBUG - updateBoard - board._id before update: 6693c0ac62157821fbb7cb3f, type: string 
+24.12.2025, 20:33:25 - DEBUG - updateBoard - received board ID from params: 694c31f0f0fb6f88a289e8e2, type: string 
+24.12.2025, 20:33:25 - DEBUG - updateBoard - board._id before update: 694c31f0f0fb6f88a289e8e2, type: string 
+24.12.2025, 20:33:28 - DEBUG - updateBoard - received board ID from params: 694c31f0f0fb6f88a289e8e2, type: string 
+24.12.2025, 20:33:28 - DEBUG - updateBoard - board._id before update: 694c31f0f0fb6f88a289e8e2, type: string 
+24.12.2025, 20:42:04 - DEBUG - updateBoard - received board ID from params: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 20:42:04 - DEBUG - updateBoard - board._id before update: 694c10b5c1890e3e922679a6, type: string 
+24.12.2025, 21:45:45 - INFO - server.js loaded... 
+24.12.2025, 21:45:45 - INFO - Server is running on port: 3030 
+24.12.2025, 21:45:51 - INFO - server.js loaded... 
+24.12.2025, 21:45:51 - INFO - Server is running on port: 3030 
+24.12.2025, 21:45:54 - INFO - server.js loaded... 
+24.12.2025, 21:45:54 - INFO - Server is running on port: 3030 
+24.12.2025, 21:45:56 - INFO - server.js loaded... 
+24.12.2025, 21:45:56 - INFO - Server is running on port: 3030 
+24.12.2025, 21:45:58 - INFO - server.js loaded... 
+24.12.2025, 21:45:58 - INFO - Server is running on port: 3030 
+24.12.2025, 21:45:59 - INFO - server.js loaded... 
+24.12.2025, 21:45:59 - INFO - Server is running on port: 3030 
+24.12.2025, 21:46:03 - INFO - server.js loaded... 
+24.12.2025, 21:46:03 - INFO - Server is running on port: 3030 
+24.12.2025, 21:46:19 - INFO - server.js loaded... 
+24.12.2025, 21:46:19 - INFO - Server is running on port: 3030 
+24.12.2025, 21:46:46 - INFO - User login:  | {"_id":"694c2f9af0fb6f88a289e8e1","email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false} 
+24.12.2025, 21:47:36 - DEBUG - updateBoard - received board ID from params: 20dfb69ba8ef7d82023ef6d47391ed042abcc10a3730e4261c0489738132180c65debff2e2b8ee721ca119079f567d07cfa015c6d8a6aa2b99c263fe8b4b8d369fe29f15335c16df1858ee7576fa1e657a1280a4107accf3b37a8888fab49223830d1dd81547a0835b6771e1b66d56c641e936e7b76455ad, type: string 
+24.12.2025, 21:47:36 - DEBUG - updateBoard - decrypted ID: 694c433972b92562beeb1605 
+24.12.2025, 21:48:35 - INFO - server.js loaded... 
+24.12.2025, 21:48:35 - INFO - Server is running on port: 3030 
+24.12.2025, 21:48:38 - INFO - server.js loaded... 
+24.12.2025, 21:48:38 - INFO - Server is running on port: 3030 
+24.12.2025, 21:49:14 - INFO - server.js loaded... 
+24.12.2025, 21:49:14 - INFO - Server is running on port: 3030 
+24.12.2025, 21:49:23 - INFO - server.js loaded... 
+24.12.2025, 21:49:23 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:33 - INFO - server.js loaded... 
+24.12.2025, 21:51:33 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:37 - INFO - server.js loaded... 
+24.12.2025, 21:51:37 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:39 - INFO - server.js loaded... 
+24.12.2025, 21:51:39 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:42 - INFO - server.js loaded... 
+24.12.2025, 21:51:42 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:46 - INFO - server.js loaded... 
+24.12.2025, 21:51:46 - INFO - Server is running on port: 3030 
+24.12.2025, 21:51:49 - INFO - server.js loaded... 
+24.12.2025, 21:51:49 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:29 - INFO - server.js loaded... 
+24.12.2025, 21:59:29 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:32 - INFO - server.js loaded... 
+24.12.2025, 21:59:32 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:35 - INFO - server.js loaded... 
+24.12.2025, 21:59:35 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:37 - INFO - server.js loaded... 
+24.12.2025, 21:59:37 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:39 - INFO - server.js loaded... 
+24.12.2025, 21:59:40 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:47 - INFO - server.js loaded... 
+24.12.2025, 21:59:47 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:52 - INFO - server.js loaded... 
+24.12.2025, 21:59:52 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:54 - INFO - server.js loaded... 
+24.12.2025, 21:59:54 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:56 - INFO - server.js loaded... 
+24.12.2025, 21:59:56 - INFO - Server is running on port: 3030 
+24.12.2025, 21:59:58 - INFO - server.js loaded... 
+24.12.2025, 21:59:58 - INFO - Server is running on port: 3030 
+24.12.2025, 22:00:08 - INFO - server.js loaded... 
+24.12.2025, 22:00:08 - INFO - Server is running on port: 3030 
+24.12.2025, 22:00:36 - ERROR - while finding board ppdNno2D | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:00:36 - ERROR - Failed to get board | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:01:28 - ERROR - while finding board ppdNno2D | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:01:28 - ERROR - Failed to get board | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:01:35 - ERROR - Failed to get board | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:01:35 - ERROR - while finding board ppdNno2D | Error: Board not found with ID: ppdNno2D 
+24.12.2025, 22:02:08 - INFO - server.js loaded... 
+24.12.2025, 22:02:08 - INFO - Server is running on port: 3030 
+24.12.2025, 22:02:14 - INFO - server.js loaded... 
+24.12.2025, 22:02:14 - INFO - Server is running on port: 3030 
+24.12.2025, 22:02:56 - INFO - server.js loaded... 
+24.12.2025, 22:02:56 - INFO - Server is running on port: 3030 
+24.12.2025, 22:02:59 - INFO - server.js loaded... 
+24.12.2025, 22:02:59 - INFO - Server is running on port: 3030 
+24.12.2025, 22:03:15 - INFO - server.js loaded... 
+24.12.2025, 22:03:15 - INFO - Server is running on port: 3030 
+24.12.2025, 22:03:20 - INFO - server.js loaded... 
+24.12.2025, 22:03:20 - INFO - Server is running on port: 3030 
+24.12.2025, 22:03:26 - INFO - server.js loaded... 
+24.12.2025, 22:03:26 - INFO - Server is running on port: 3030 
+24.12.2025, 22:03:40 - INFO - addBoard - creating new board 
+24.12.2025, 22:03:40 - INFO - add - generated plainShortId: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - add - encryption test passed 
+24.12.2025, 22:03:40 - INFO - add - encrypted shortId length: 208 
+24.12.2025, 22:03:40 - INFO - add - board inserted with _id: 694c471c6067e1b292f99169, plainShortId: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - add - board verified in DB, has shortId: true 
+24.12.2025, 22:03:40 - INFO - addBoard - board created with _id: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - add - returning board with _id: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - getBoard - received shortId from URL: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - getById - looking up board with shortId: 2hhJEFun 
+24.12.2025, 22:03:40 - INFO - getById - encrypted shortId length: 208 
+24.12.2025, 22:03:40 - INFO - getById - found by shortId: no 
+24.12.2025, 22:03:40 - INFO - getById - not found by shortId, trying as ObjectId 
+24.12.2025, 22:03:40 - INFO - getById - not a valid ObjectId: hex string must be 24 characters 
+24.12.2025, 22:03:40 - INFO - getById - found 2 boards with shortId field 
+24.12.2025, 22:03:40 - INFO - getById - sample shortId from DB: 0a36c47a0f927764075d61244609fb... 
+24.12.2025, 22:03:40 - ERROR - while finding board 2hhJEFun | Error: Board not found with ID: 2hhJEFun 
+24.12.2025, 22:03:40 - ERROR - Board not found with shortId: 2hhJEFun 
+24.12.2025, 22:03:40 - ERROR - Failed to get board | Error: Board not found with ID: 2hhJEFun 
+24.12.2025, 22:04:51 - INFO - server.js loaded... 
+24.12.2025, 22:04:51 - INFO - Server is running on port: 3030 
+24.12.2025, 22:04:56 - INFO - server.js loaded... 
+24.12.2025, 22:04:57 - INFO - Server is running on port: 3030 
+24.12.2025, 22:04:59 - INFO - server.js loaded... 
+24.12.2025, 22:04:59 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:04 - INFO - server.js loaded... 
+24.12.2025, 22:05:04 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:13 - INFO - server.js loaded... 
+24.12.2025, 22:05:13 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:16 - INFO - server.js loaded... 
+24.12.2025, 22:05:16 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:18 - INFO - server.js loaded... 
+24.12.2025, 22:05:18 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:18 - DEBUG - updateBoard - received board ID from params: 233ac61d61eb8850b481e8f2bc1f0af09630b6cec90b851020e49b8ed38fc1f6ddcfd2338eee8c794d2471a8cb62bc0b7de8b94a31ca67e0d8d45aaac8ef60eda26aaa8780cc4d295a679bd2e4bcbf8f5280268a5eba393b77e0299788f9dfe930617793e3d663a752711be22c7bbb432762fa304bc17ece822e5b925e628ada6a14565d4c4584c033948eb329f876361bff7058802eb778baa363f92587429b26f6858f379dbecd42b32a1485dcd2c193a25cb57f0f45001a251b70be21f03382e539c69101b876c11bc46a840bd47f801b505cf45e83db8d434fb0a4ee04fa393418933d52c206273a283245590ac806fb5eacfd6b44ab74387c00873f106100f79ddea54f3d8c4b1e0cf8fa3e958042eab935f222be11efd47d9aeaed4f91de91408c894a513e63069f71be25775f 
+24.12.2025, 22:05:21 - DEBUG - updateBoard - received board ID from params: 233ac61d61eb8850b481e8f2bc1f0af09630b6cec90b851020e49b8ed38fc1f6ddcfd2338eee8c794d2471a8cb62bc0b7de8b94a31ca67e0d8d45aaac8ef60eda26aaa8780cc4d295a679bd2e4bcbf8f5280268a5eba393b77e0299788f9dfe930617793e3d663a752711be22c7bbb432762fa304bc17ece822e5b925e628ada6a14565d4c4584c033948eb329f876361bff7058802eb778baa363f92587429b26f6858f379dbecd42b32a1485dcd2c193a25cb57f0f45001a251b70be21f03382e539c69101b876c11bc46a840bd47f801b505cf45e83db8d434fb0a4ee04fa393418933d52c206273a283245590ac806fb5eacfd6b44ab74387c00873f106100f79ddea54f3d8c4b1e0cf8fa3e958042eab935f222be11efd47d9aeaed4f91de91408c894a513e63069f71be25775f 
+24.12.2025, 22:05:34 - INFO - server.js loaded... 
+24.12.2025, 22:05:34 - INFO - Server is running on port: 3030 
+24.12.2025, 22:05:53 - INFO - addBoard - creating new board 
+24.12.2025, 22:05:53 - INFO - add - generated plainShortId: YZchDLp9 
+24.12.2025, 22:05:53 - INFO - add - board inserted with _id: 694c47a14852a0f0b7686107, plainShortId: YZchDLp9 
+24.12.2025, 22:05:53 - INFO - add - returning board with _id: ab934ed80c25776f8ce23c2c5ca12895acec7b15df5967f0495d63d4c37d9bac6db8db5f7f6243470b76426c798e91b289156d00cfbba467855e05d6a3acdfaa74b33996928ceba25c5575260e1b62ba2fa45252f14573754ed02c6c249ef083587c79f5636458d0 
+24.12.2025, 22:05:53 - INFO - addBoard - board created with _id: ab934ed80c25776f8ce23c2c5ca12895acec7b15df5967f0495d63d4c37d9bac6db8db5f7f6243470b76426c798e91b289156d00cfbba467855e05d6a3acdfaa74b33996928ceba25c5575260e1b62ba2fa45252f14573754ed02c6c249ef083587c79f5636458d0 
+24.12.2025, 22:08:13 - INFO - server.js loaded... 
+24.12.2025, 22:08:13 - INFO - Server is running on port: 3030 
+24.12.2025, 22:08:23 - INFO - server.js loaded... 
+24.12.2025, 22:08:23 - INFO - Server is running on port: 3030 
+24.12.2025, 22:08:38 - INFO - addBoard - creating new board 
+24.12.2025, 22:08:38 - INFO - add - generated plainShortId: Efrq 
+24.12.2025, 22:08:38 - INFO - add - board inserted with _id: 694c48467d524af57b3439d0, plainShortId: Efrq 
+24.12.2025, 22:08:38 - INFO - add - returning board with _id: 2fe47e5d26949b4de7a89d5b422398a7e7c085a6b6b8a95d547a1cec0ca77d6a06790bffb127047884d3e65a36bda874c68bcd92ff84ba902530b9dbafb7fc2176468f9cff2c616f02e49d870c53d42051333558b702d98411783623d3b3f307378aefea 
+24.12.2025, 22:08:38 - INFO - addBoard - board created with _id: 2fe47e5d26949b4de7a89d5b422398a7e7c085a6b6b8a95d547a1cec0ca77d6a06790bffb127047884d3e65a36bda874c68bcd92ff84ba902530b9dbafb7fc2176468f9cff2c616f02e49d870c53d42051333558b702d98411783623d3b3f307378aefea 
+24.12.2025, 22:10:00 - INFO - server.js loaded... 
+24.12.2025, 22:10:00 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:02 - INFO - server.js loaded... 
+24.12.2025, 22:10:02 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:04 - INFO - server.js loaded... 
+24.12.2025, 22:10:04 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:06 - INFO - server.js loaded... 
+24.12.2025, 22:10:06 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:07 - INFO - server.js loaded... 
+24.12.2025, 22:10:07 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:14 - INFO - server.js loaded... 
+24.12.2025, 22:10:14 - INFO - Server is running on port: 3030 
+24.12.2025, 22:10:18 - INFO - server.js loaded... 
+24.12.2025, 22:10:18 - INFO - Server is running on port: 3030 
+24.12.2025, 22:20:03 - INFO - server.js loaded... 
+24.12.2025, 22:20:03 - INFO - Server is running on port: 3030 
+24.12.2025, 22:20:16 - INFO - User login:  | {"_id":"694c2f9af0fb6f88a289e8e1","email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false} 

@@ -1,6 +1,7 @@
 import { ObjectId } from 'mongodb'
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
+import { utilService } from '../../services/util.service.js'
 
 export const boardService = {
   query,
@@ -10,12 +11,16 @@ export const boardService = {
   add,
 }
 
-// Helper function to convert ObjectId to string for JSON serialization
+// Helper function to convert board to response format
 function serializeBoard(board) {
   if (!board) return board
+  // Use shortId if available, otherwise fall back to _id for backward compatibility
+  const idForResponse = board.shortId || (board._id instanceof ObjectId ? board._id.toString() : board._id)
+  
   return {
     ...board,
-    _id: board._id instanceof ObjectId ? board._id.toString() : board._id
+    _id: idForResponse,
+    shortId: undefined // Don't expose shortId field to frontend
   }
 }
 
@@ -31,59 +36,89 @@ async function query(filterBy = {}) {
   }
 }
 
-async function getById(boardId) {
+async function getById(shortId) {
   try {
     const collection = await dbService.getCollection('board')
-    const board = await collection.findOne({ _id: ObjectId.createFromHexString(boardId) })
+    let board = await collection.findOne({ shortId: shortId })
+    
+    // Fallback to ObjectId for backward compatibility with old boards
+    if (!board) {
+      try {
+        const objectId = ObjectId.createFromHexString(shortId)
+        board = await collection.findOne({ _id: objectId })
+      } catch (idErr) {
+        // Not a valid ObjectId
+      }
+    }
+    
+    if (!board) {
+      throw new Error(`Board not found with ID: ${shortId}`)
+    }
+    
     return serializeBoard(board)
   } catch (err) {
-    logger.error(`while finding board ${boardId}`, err)
+    logger.error(`while finding board ${shortId}`, err)
     throw err
   }
 }
 
-async function remove(boardId) {
+async function remove(shortId) {
   try {
     const collection = await dbService.getCollection('board')
-    await collection.deleteOne({ _id: ObjectId.createFromHexString(boardId) })
+    let result = await collection.deleteOne({ shortId: shortId })
+    
+    // Fallback to ObjectId for backward compatibility with old boards
+    if (result.deletedCount === 0) {
+      try {
+        const objectId = ObjectId.createFromHexString(shortId)
+        result = await collection.deleteOne({ _id: objectId })
+      } catch (idErr) {
+        // Not a valid ObjectId
+      }
+    }
+    
+    if (result.deletedCount === 0) {
+      throw new Error(`Board not found with ID: ${shortId}`)
+    }
   } catch (err) {
-    logger.error(`cannot remove board ${boardId}`, err)
+    logger.error(`cannot remove board ${shortId}`, err)
     throw err
   }
 }
 
 async function update(board) {
   try {
-    // Validate that _id is provided and is a string
     if (!board._id) {
       throw new Error('Board _id is required')
     }
     
     if (typeof board._id !== 'string') {
-      logger.error(`Invalid board ID format: expected string, got ${typeof board._id}: ${JSON.stringify(board._id)}`)
-      throw new Error(`Board _id must be a string, got ${typeof board._id}`)
+      throw new Error(`Board _id must be a string`)
     }
 
-    // Convert string ID to ObjectId
-    let boardId
-    try {
-      boardId = ObjectId.createFromHexString(board._id)
-    } catch (idErr) {
-      logger.error(`Invalid board ID format: ${board._id}`, idErr)
-      throw new Error(`Invalid board ID format: ${board._id}`)
-    }
-
-    // Check if board exists
+    const shortId = board._id
     const collection = await dbService.getCollection('board')
-    const existingBoard = await collection.findOne({ _id: boardId })
+    let existingBoard = await collection.findOne({ shortId: shortId })
+    let updateQuery = { shortId: shortId }
+    
+    // Fallback to ObjectId for backward compatibility with old boards
+    if (!existingBoard) {
+      try {
+        const objectId = ObjectId.createFromHexString(shortId)
+        existingBoard = await collection.findOne({ _id: objectId })
+        if (existingBoard) {
+          updateQuery = { _id: objectId }
+        }
+      } catch (idErr) {
+        // Not a valid ObjectId
+      }
+    }
     
     if (!existingBoard) {
-      logger.error(`Board not found with ID: ${board._id}`)
       throw new Error(`Board not found with ID: ${board._id}`)
     }
 
     const boardToSave = {
-      _id: boardId,
       title: board.title,
       isStarred: board.isStarred,
       archivedAt: board.archivedAt,
@@ -95,15 +130,19 @@ async function update(board) {
       activities: board.activities || [],
     }
     
-    const result = await collection.updateOne({ _id: boardToSave._id }, { $set: boardToSave })
+    // Preserve shortId if board has one
+    if (existingBoard.shortId) {
+      boardToSave.shortId = shortId
+    }
+    
+    const result = await collection.updateOne(updateQuery, { $set: boardToSave })
     
     if (result.matchedCount === 0) {
-      logger.error(`Board update failed - no board matched ID: ${board._id}`)
       throw new Error(`Board update failed`)
     }
     
-    // Return the updated board with _id as string for frontend
-    return serializeBoard(boardToSave)
+    const updatedBoard = await collection.findOne(updateQuery)
+    return serializeBoard(updatedBoard)
   } catch (err) {
     logger.error(`cannot update board ${board._id}`, err)
     throw err
@@ -112,7 +151,11 @@ async function update(board) {
 
 async function add(board) {
   try {
+    // Generate a short ID (8 characters)
+    const plainShortId = utilService.generateShortId(8)
+    
     const boardToAdd = {
+      shortId: plainShortId,
       title: board.title,
       isStarred: board.isStarred || false,
       archivedAt: board.archivedAt || null,

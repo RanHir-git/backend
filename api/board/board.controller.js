@@ -3,11 +3,16 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getBoard(req, res) {
   try {
-    const board = await boardService.getById(req.params.id)
+    const shortId = req.params.id
+    const board = await boardService.getById(shortId)
     res.send(board)
   } catch (err) {
     logger.error('Failed to get board', err)
-    res.status(500).send({ err: 'Failed to get board' })
+    if (err.message.includes('not found')) {
+      res.status(400).send({ err: 'Invalid board ID' })
+    } else {
+      res.status(500).send({ err: 'Failed to get board' })
+    }
   }
 }
 
@@ -26,27 +31,32 @@ export async function getBoards(req, res) {
 
 export async function deleteBoard(req, res) {
   try {
-    console.log('Deleting board with id:', req.params.id)
-    await boardService.remove(req.params.id)
+    const shortId = req.params.id
+    await boardService.remove(shortId)
     res.send({ msg: 'Deleted successfully' })
   } catch (err) {
     logger.error('Failed to delete board', err)
-    res.status(500).send({ err: 'Failed to delete board' })
+    if (err.message.includes('not found')) {
+      res.status(400).send({ err: 'Invalid board ID' })
+    } else {
+      res.status(500).send({ err: 'Failed to delete board' })
+    }
   }
 }
 
 export async function updateBoard(req, res) {
   try {
     const board = req.body
-    // Ensure the _id from params matches the body _id
     board._id = req.params.id
-    logger.debug(`updateBoard - received board ID from params: ${req.params.id}, type: ${typeof req.params.id}`)
-    logger.debug(`updateBoard - board._id before update: ${board._id}, type: ${typeof board._id}`)
     const savedBoard = await boardService.update(board)
     res.send(savedBoard)
   } catch (err) {
     logger.error('Failed to update board', err)
-    res.status(500).send({ err: 'Failed to update board', details: err.message })
+    if (err.message.includes('not found')) {
+      res.status(400).send({ err: 'Invalid board ID' })
+    } else {
+      res.status(500).send({ err: 'Failed to update board', details: err.message })
+    }
   }
 }
 

@@ -1,0 +1,69 @@
+23.12.2025, 17:58:23 - INFO - Server is running on port: 3030 
+23.12.2025, 17:58:23 - INFO - server.js loaded... 
+23.12.2025, 18:06:12 - INFO - server.js loaded... 
+23.12.2025, 18:06:12 - INFO - Server is running on port: 3030 
+23.12.2025, 18:08:11 - INFO - server.js loaded... 
+23.12.2025, 18:08:11 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:18 - INFO - server.js loaded... 
+23.12.2025, 18:09:19 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:22 - INFO - server.js loaded... 
+23.12.2025, 18:09:22 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:39 - INFO - server.js loaded... 
+23.12.2025, 18:09:39 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:41 - INFO - server.js loaded... 
+23.12.2025, 18:09:41 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:43 - INFO - server.js loaded... 
+23.12.2025, 18:09:43 - INFO - Server is running on port: 3030 
+23.12.2025, 18:09:45 - INFO - server.js loaded... 
+23.12.2025, 18:09:45 - INFO - Server is running on port: 3030 
+23.12.2025, 18:11:10 - INFO - Seeded DB with 1 boards, 2 users from JSON files 
+23.12.2025, 18:11:24 - INFO - Seeded DB with 1 boards, 2 users from JSON files 
+23.12.2025, 18:11:31 - INFO - server.js loaded... 
+23.12.2025, 18:11:31 - INFO - Server is running on port: 3030 
+23.12.2025, 18:19:31 - INFO - server.js loaded... 
+23.12.2025, 18:19:31 - INFO - Server is running on port: 3030 
+23.12.2025, 18:19:36 - INFO - server.js loaded... 
+23.12.2025, 18:19:36 - INFO - Server is running on port: 3030 
+23.12.2025, 18:20:53 - ERROR - while finding board u101 | BSONError: hex string must be 24 characters 
+23.12.2025, 18:20:53 - ERROR - Failed to get board | BSONError: hex string must be 24 characters 
+23.12.2025, 18:22:33 - INFO - server.js loaded... 
+23.12.2025, 18:22:33 - INFO - Server is running on port: 3030 
+24.12.2025, 10:44:02 - INFO - server.js loaded... 
+24.12.2025, 10:44:02 - INFO - Server is running on port: 3030 
+24.12.2025, 10:45:59 - ERROR - Failed to Login Error: Invalid username or password 
+24.12.2025, 10:46:07 - ERROR - Failed to Login Error: Invalid username or password 
+24.12.2025, 10:46:17 - ERROR - Failed to Login Error: Invalid username or password 
+24.12.2025, 10:48:20 - ERROR - Failed to Login Error: Invalid username or password 
+24.12.2025, 10:49:04 - INFO - server.js loaded... 
+24.12.2025, 10:49:04 - INFO - Server is running on port: 3030 
+24.12.2025, 10:49:17 - ERROR - Failed to Login Error: Invalid username or password 
+24.12.2025, 10:57:23 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:23 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:26 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:26 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:27 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:27 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:28 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:28 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:30 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:30 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:30 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:30 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:30 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:30 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:57:30 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:57:30 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:58:28 - INFO - server.js loaded... 
+24.12.2025, 10:58:28 - INFO - Server is running on port: 3030 
+24.12.2025, 10:58:31 - INFO - server.js loaded... 
+24.12.2025, 10:58:31 - INFO - Server is running on port: 3030 
+24.12.2025, 10:58:45 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:58:45 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:58:46 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:58:46 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:58:48 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:58:48 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:58:49 - ERROR - Failed to signup Error: Missing details 
+24.12.2025, 10:58:49 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:58:49 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+24.12.2025, 10:58:49 - ERROR - Failed to signup Error: Missing details 

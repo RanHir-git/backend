@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6693c0ac62157821fbb7cb3e"
+  },
+  "username": "admin",
+  "password": "$2b$10$iWqUz1zcd18tlrkTCWr/u.akZpFCfhS3CmYe28o2DQLHN9/KLC8YW",
+  "fullname": "Mister-Toy",
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "669ebd75f0de93587962c526"
+  },
+  "username": "test",
+  "password": "$2b$10$aElIys4bm6Nx0ZSpvevfG.2vxyQ/T/ISrPmhpMuHRbwZ/R/VO.1hm",
+  "fullname": "test",
+  "isAdmin": false
+}]

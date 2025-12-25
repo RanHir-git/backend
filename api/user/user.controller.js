@@ -34,6 +34,21 @@ export async function deleteUser(req, res) {
     }
 }
 
+export async function addUser(req, res) {
+    try {
+        const user = req.body
+        const savedUser = await userService.add(user)
+        res.send(savedUser)
+    } catch (err) {
+        logger.error('Failed to add user', err)
+        if (err.message === 'Email taken') {
+            res.status(400).send({ err: 'Email taken' })
+        } else {
+            res.status(500).send({ err: 'Failed to add user' })
+        }
+    }
+}
+
 export async function updateUser(req, res) {
     try {
         const user = req.body

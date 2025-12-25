@@ -65,15 +65,22 @@ async function remove(userId) {
 
 async function update(user) {
   try {
-    // peek only updatable fields!
-    const userToSave = {
-      _id: ObjectId.createFromHexString(user._id),
-      email: user.email,
-      fullname: user.fullname,
-    }
+    const _id = ObjectId.createFromHexString(user._id)
     const collection = await dbService.getCollection('user')
-    await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
-    return userToSave
+    
+    // Build update object with only provided fields
+    const updateFields = {}
+    if (user.email !== undefined) updateFields.email = user.email
+    if (user.fullname !== undefined) updateFields.fullname = user.fullname
+    if (user.imgUrl !== undefined) updateFields.imgUrl = user.imgUrl
+    if (user.password !== undefined) updateFields.password = user.password
+    if (user.score !== undefined) updateFields.score = user.score
+    
+    await collection.updateOne({ _id }, { $set: updateFields })
+    
+    // Return the updated user
+    const updatedUser = await collection.findOne({ _id })
+    return updatedUser
   } catch (err) {
     logger.error(`cannot update user ${user._id}`, err)
     throw err
@@ -89,10 +96,13 @@ async function add(user) {
     // peek only updatable fields!
     const userToAdd = {
       email: user.email,
-      // password: user.password,
       fullname: user.fullname,
       isAdmin: false,
     }
+    // Add optional fields if provided
+    if (user.password !== undefined) userToAdd.password = user.password
+    if (user.imgUrl !== undefined) userToAdd.imgUrl = user.imgUrl
+    
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)
     return userToAdd

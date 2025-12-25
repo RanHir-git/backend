@@ -23,18 +23,18 @@ export async function login(req, res) {
     export async function signup(req, res) {
     
         try {
-            const { email, fullname } = req.body
-            // const { email, password, fullname } = req.body
+            const userCred = req.body
+            // const { email, password, fullname, imgUrl } = req.body
         
         // IMPORTANT!!! 
         // Never write passwords to log file!!!
         // logger.debug(fullname + ', ' + username + ', ' + password)
         
-        const account = await authService.signup(email, fullname)
-        // const account = await authService.signup(email, password, fullname)
+        const account = await authService.signup(userCred)
+        // const account = await authService.signup({ email, password, fullname, imgUrl })
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
         
-        const user = await authService.login(email)
+        const user = await authService.login(userCred.email)
         // const user = await authService.login(email, password)
         const loginToken = authService.getLoginToken(user)
 
@@ -42,7 +42,11 @@ export async function login(req, res) {
         res.json(user)
     } catch (err) {
         logger.error('Failed to signup ' + err)
-        res.status(500).send({ err: 'Failed to signup' })
+        if (err.message === 'Email taken') {
+            res.status(400).send({ err: 'Email taken' })
+        } else {
+            res.status(500).send({ err: 'Failed to signup' })
+        }
     }
 }
 

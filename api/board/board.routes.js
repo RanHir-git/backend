@@ -5,8 +5,8 @@ import { getBoard, getBoards, deleteBoard, updateBoard, addBoard } from './board
 
 export const boardRoutes = express.Router()
 
-boardRoutes.get('/', getBoards)
-boardRoutes.get('/:id', getBoard)
-boardRoutes.post('/',  addBoard)
-boardRoutes.put('/:id', updateBoard)
-boardRoutes.delete('/:id', deleteBoard)
+boardRoutes.get('/', requireAuth, getBoards)
+boardRoutes.get('/:id', requireAuth, getBoard)
+boardRoutes.post('/', requireAuth, addBoard)
+boardRoutes.put('/:id', requireAuth, updateBoard)
+boardRoutes.delete('/:id', requireAuth, deleteBoard)

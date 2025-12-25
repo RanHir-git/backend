@@ -646,3 +646,32 @@
 25.12.2025, 11:16:36 - INFO - Server is running on port: 3030 
 25.12.2025, 11:17:11 - INFO - server.js loaded... 
 25.12.2025, 11:17:11 - INFO - Server is running on port: 3030 
+25.12.2025, 11:23:53 - INFO - server.js loaded... 
+25.12.2025, 11:23:53 - INFO - Server is running on port: 3030 
+25.12.2025, 11:26:02 - INFO - Server is running on port: 3030 
+25.12.2025, 11:26:02 - INFO - server.js loaded... 
+25.12.2025, 11:26:07 - INFO - server.js loaded... 
+25.12.2025, 11:26:08 - INFO - Server is running on port: 3030 
+25.12.2025, 11:28:26 - INFO - server.js loaded... 
+25.12.2025, 11:28:26 - INFO - Server is running on port: 3030 
+25.12.2025, 11:29:26 - INFO - server.js loaded... 
+25.12.2025, 11:29:26 - INFO - Server is running on port: 3030 
+25.12.2025, 11:29:35 - INFO - server.js loaded... 
+25.12.2025, 11:29:35 - INFO - Server is running on port: 3030 
+25.12.2025, 11:30:48 - INFO - User login:  | {"_id":"694c2f9af0fb6f88a289e8e1","email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false} 
+25.12.2025, 11:32:55 - INFO - server.js loaded... 
+25.12.2025, 11:32:55 - INFO - Server is running on port: 3030 
+25.12.2025, 11:40:50 - ERROR - Failed to get board | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:40:50 - ERROR - while finding board board_nz_001 | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:42:26 - ERROR - while finding board board_nz_001 | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:42:26 - ERROR - Failed to get board | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:42:30 - ERROR - while finding board board_nz_001 | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:42:30 - ERROR - Failed to get board | Error: Board not found with ID: board_nz_001 
+25.12.2025, 11:50:38 - INFO - File uploaded successfully: | task-attachments/plb2etooj55ijj0llc9r 
+25.12.2025, 11:50:38 - INFO - File uploaded successfully: | task-attachments/plb2etooj55ijj0llc9r 
+25.12.2025, 11:57:15 - INFO - User login:  | {"_id":"694c2f9af0fb6f88a289e8e1","email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false} 
+25.12.2025, 12:05:32 - INFO - User login:  | {"_id":"694c2f9af0fb6f88a289e8e1","email":"ranhirschorn@gmail.com","fullname":"Ran Hirschorn","isAdmin":false} 
+25.12.2025, 12:07:55 - INFO - File uploaded successfully: | task-attachments/f8saklheipeaad5m5mr4 
+25.12.2025, 12:07:55 - INFO - File uploaded successfully: | task-attachments/f8saklheipeaad5m5mr4 
+25.12.2025, 12:08:09 - INFO - File uploaded successfully: | task-attachments/egu4ytdintfgnhwv4ppw 
+25.12.2025, 12:08:09 - INFO - File uploaded successfully: | task-attachments/egu4ytdintfgnhwv4ppw 

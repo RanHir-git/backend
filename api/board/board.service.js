@@ -16,7 +16,7 @@ function serializeBoard(board) {
   if (!board) return board
   // Use shortId if available, otherwise fall back to _id for backward compatibility
   const idForResponse = board.shortId || (board._id instanceof ObjectId ? board._id.toString() : board._id)
-  
+
   return {
     ...board,
     _id: idForResponse,
@@ -42,7 +42,7 @@ async function getById(shortId) {
   try {
     const collection = await dbService.getCollection('board')
     let board = await collection.findOne({ shortId: shortId })
-    
+
     // Fallback to ObjectId for backward compatibility with old boards
     if (!board) {
       try {
@@ -52,11 +52,11 @@ async function getById(shortId) {
         // Not a valid ObjectId
       }
     }
-    
+
     if (!board) {
       throw new Error(`Board not found with ID: ${shortId}`)
     }
-    
+
     return serializeBoard(board)
   } catch (err) {
     logger.error(`while finding board ${shortId}`, err)
@@ -68,7 +68,7 @@ async function remove(shortId) {
   try {
     const collection = await dbService.getCollection('board')
     let result = await collection.deleteOne({ shortId: shortId })
-    
+
     // Fallback to ObjectId for backward compatibility with old boards
     if (result.deletedCount === 0) {
       try {
@@ -78,7 +78,7 @@ async function remove(shortId) {
         // Not a valid ObjectId
       }
     }
-    
+
     if (result.deletedCount === 0) {
       throw new Error(`Board not found with ID: ${shortId}`)
     }
@@ -93,7 +93,7 @@ async function update(board) {
     if (!board._id) {
       throw new Error('Board _id is required')
     }
-    
+
     if (typeof board._id !== 'string') {
       throw new Error(`Board _id must be a string`)
     }
@@ -102,7 +102,7 @@ async function update(board) {
     const collection = await dbService.getCollection('board')
     let existingBoard = await collection.findOne({ shortId: shortId })
     let updateQuery = { shortId: shortId }
-    
+
     // Fallback to ObjectId for backward compatibility with old boards
     if (!existingBoard) {
       try {
@@ -115,7 +115,7 @@ async function update(board) {
         // Not a valid ObjectId
       }
     }
-    
+
     if (!existingBoard) {
       throw new Error(`Board not found with ID: ${board._id}`)
     }
@@ -131,18 +131,18 @@ async function update(board) {
       groups: board.groups,
       activities: board.activities || [],
     }
-    
+
     // Preserve shortId if board has one
     if (existingBoard.shortId) {
       boardToSave.shortId = shortId
     }
-    
+
     const result = await collection.updateOne(updateQuery, { $set: boardToSave })
-    
+
     if (result.matchedCount === 0) {
       throw new Error(`Board update failed`)
     }
-    
+
     const updatedBoard = await collection.findOne(updateQuery)
     return serializeBoard(updatedBoard)
   } catch (err) {
@@ -155,7 +155,7 @@ async function add(board) {
   try {
     // Generate a short ID (8 characters)
     const plainShortId = utilService.generateShortId(8)
-    
+
     const boardToAdd = {
       shortId: plainShortId,
       title: board.title,
@@ -193,6 +193,8 @@ function _buildCriteria(filterBy) {
       },
     ]
   }
+  if (filterBy.members) {
+    criteria['members._id'] = filterBy.members
+  }
   return criteria
 }
-

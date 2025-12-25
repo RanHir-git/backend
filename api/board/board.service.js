@@ -185,16 +185,29 @@ async function add(board) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
-  if (filterBy.title) {
-    const txtCriteria = { $regex: filterBy.title, $options: 'i' }
+  
+  // Filter by user membership or creation
+  if (filterBy.members) {
     criteria.$or = [
-      {
-        title: txtCriteria,
-      },
+      { 'members._id': filterBy.members }
     ]
   }
-  if (filterBy.members) {
-    criteria['members._id'] = filterBy.members
+  
+  // Filter by title (if user filter exists, this becomes an $and condition)
+  if (filterBy.title) {
+    const txtCriteria = { $regex: filterBy.title, $options: 'i' }
+    if (criteria.$or) {
+      // User filter exists, combine with $and
+      criteria = {
+        $and: [
+          { $or: criteria.$or },
+          { title: txtCriteria }
+        ]
+      }
+    } else {
+      criteria.title = txtCriteria
+    }
   }
+  
   return criteria
 }

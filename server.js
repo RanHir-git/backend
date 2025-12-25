@@ -25,8 +25,15 @@ if (process.env.NODE_ENV === 'production') {
     // Express serve static files on production environment
     app.use(express.static(path.resolve(__dirname, 'public')))
     console.log('__dirname: ', __dirname)
+    
+    // CORS for production - allow requests from the same origin (since frontend and backend are served together)
+    // But also allow credentials for cookies
+    app.use(cors({
+        origin: true, // Allow same-origin requests
+        credentials: true
+    }))
 } else {
-    // Configuring CORS
+    // Configuring CORS for development
     const corsOptions = {
         // Make sure origin contains the url your frontend is running on
         origin: [

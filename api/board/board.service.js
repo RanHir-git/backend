@@ -26,6 +26,8 @@ function serializeBoard(board) {
 
 async function query(filterBy = {}) {
   const criteria = _buildCriteria(filterBy)
+  console.log('boardService: criteria:', criteria)
+  console.log('boardService: filterBy:', filterBy)
   try {
     const collection = await dbService.getCollection('board')
     var boards = await collection.find(criteria).toArray()
@@ -183,8 +185,8 @@ async function add(board) {
 
 function _buildCriteria(filterBy) {
   const criteria = {}
-  if (filterBy.txt) {
-    const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+  if (filterBy.title) {
+    const txtCriteria = { $regex: filterBy.title, $options: 'i' }
     criteria.$or = [
       {
         title: txtCriteria,

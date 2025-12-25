@@ -19,7 +19,7 @@ export async function getBoard(req, res) {
 export async function getBoards(req, res) {
   try {
     const filterBy = {
-      txt: req.query?.txt || '',
+     title: req.query?.title || '',
     }
     const boards = await boardService.query(filterBy)
     res.send(boards)

@@ -711,3 +711,199 @@
 25.12.2025, 12:49:41 - INFO - Server is running on port: 3030 
 25.12.2025, 12:50:06 - DEBUG - auth.service - signup with email: helloooo@gmail.com, fullname: new user 
 25.12.2025, 12:50:06 - DEBUG - auth.route - new account created: {"email":"helloooo@gmail.com","fullname":"new user","isAdmin":false,"password":"newuser","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"694d16de0c054fa258de42b7"} 
+25.12.2025, 12:54:37 - INFO - server.js loaded... 
+25.12.2025, 12:54:37 - INFO - Server is running on port: 3030 
+25.12.2025, 12:55:12 - INFO - User login:  | {"_id":"694ce5a5984d3415cbf8801d","email":"michalhaitner@gmail.com","fullname":"mika","isAdmin":false} 
+25.12.2025, 12:56:00 - DEBUG - auth.service - signup with email: aa@aa, fullname: aa 
+25.12.2025, 12:56:00 - DEBUG - auth.route - new account created: {"email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"694d184043b75bb309efcf90"} 
+25.12.2025, 12:56:24 - DEBUG - auth.service - signup with email: bb@bb, fullname: bb 
+25.12.2025, 12:56:24 - DEBUG - auth.route - new account created: {"email":"bb@bb","fullname":"bb","isAdmin":false,"password":"bb","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"694d185843b75bb309efcf92"} 
+25.12.2025, 14:35:45 - INFO - server.js loaded... 
+25.12.2025, 14:35:45 - INFO - Server is running on port: 3030 
+25.12.2025, 14:40:19 - INFO - server.js loaded... 
+25.12.2025, 14:40:19 - INFO - Server is running on port: 3030 
+25.12.2025, 14:40:29 - INFO - server.js loaded... 
+25.12.2025, 14:40:29 - INFO - Server is running on port: 3030 
+25.12.2025, 14:43:10 - INFO - server.js loaded... 
+25.12.2025, 14:43:10 - INFO - Server is running on port: 3030 
+25.12.2025, 14:44:42 - INFO - server.js loaded... 
+25.12.2025, 14:44:42 - INFO - Server is running on port: 3030 
+25.12.2025, 14:52:35 - INFO - User login:  | {"_id":"694d184043b75bb309efcf90","email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"} 
+25.12.2025, 14:52:44 - INFO - User login:  | {"_id":"694d185843b75bb309efcf92","email":"bb@bb","fullname":"bb","isAdmin":false,"password":"bb","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"} 
+25.12.2025, 15:04:00 - INFO - server.js loaded... 
+25.12.2025, 15:04:00 - INFO - Server is running on port: 3030 
+25.12.2025, 15:07:06 - INFO - server.js loaded... 
+25.12.2025, 15:07:06 - INFO - Server is running on port: 3030 
+25.12.2025, 15:14:39 - INFO - server.js loaded... 
+25.12.2025, 15:14:39 - INFO - Server is running on port: 3030 
+25.12.2025, 15:15:06 - INFO - server.js loaded... 
+25.12.2025, 15:15:06 - INFO - Server is running on port: 3030 
+25.12.2025, 15:17:41 - INFO - server.js loaded... 
+25.12.2025, 15:17:41 - INFO - Server is running on port: 3030 
+25.12.2025, 15:19:40 - INFO - server.js loaded... 
+25.12.2025, 15:19:40 - INFO - Server is running on port: 3030 
+25.12.2025, 15:21:47 - INFO - server.js loaded... 
+25.12.2025, 15:21:47 - INFO - Server is running on port: 3030 
+25.12.2025, 15:24:13 - INFO - server.js loaded... 
+25.12.2025, 15:24:13 - INFO - Server is running on port: 3030 
+25.12.2025, 16:10:48 - INFO - server.js loaded... 
+25.12.2025, 16:10:48 - INFO - Server is running on port: 3030 
+25.12.2025, 16:20:22 - INFO - server.js loaded... 
+25.12.2025, 16:20:22 - INFO - Server is running on port: 3030 
+25.12.2025, 16:24:19 - INFO - server.js loaded... 
+25.12.2025, 16:24:19 - INFO - Server is running on port: 3030 
+25.12.2025, 16:29:32 - INFO - server.js loaded... 
+25.12.2025, 16:29:32 - INFO - Server is running on port: 3030 
+25.12.2025, 16:34:21 - INFO - server.js loaded... 
+25.12.2025, 16:34:21 - INFO - Server is running on port: 3030 
+25.12.2025, 16:37:12 - INFO - User login:  | {"_id":"694d185843b75bb309efcf92","email":"bb@bb","fullname":"bb","isAdmin":false,"password":"bb","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"} 
+25.12.2025, 16:48:15 - INFO - server.js loaded... 
+25.12.2025, 16:48:15 - INFO - Server is running on port: 3030 
+25.12.2025, 17:01:31 - INFO - server.js loaded... 
+25.12.2025, 17:01:31 - INFO - Server is running on port: 3030 
+25.12.2025, 17:16:45 - INFO - server.js loaded... 
+25.12.2025, 17:16:45 - INFO - Server is running on port: 3030 
+25.12.2025, 17:17:08 - INFO - server.js loaded... 
+25.12.2025, 17:17:08 - INFO - Server is running on port: 3030 
+25.12.2025, 17:17:09 - INFO - server.js loaded... 
+25.12.2025, 17:17:09 - INFO - Server is running on port: 3030 
+25.12.2025, 17:17:13 - INFO - Server is running on port: 3030 
+25.12.2025, 17:17:13 - INFO - server.js loaded... 
+25.12.2025, 17:17:26 - INFO - server.js loaded... 
+25.12.2025, 17:17:26 - INFO - Server is running on port: 3030 
+25.12.2025, 17:18:41 - INFO - server.js loaded... 
+25.12.2025, 17:18:41 - INFO - Server is running on port: 3030 
+25.12.2025, 17:18:50 - INFO - server.js loaded... 
+25.12.2025, 17:18:50 - INFO - Server is running on port: 3030 
+25.12.2025, 17:25:55 - INFO - server.js loaded... 
+25.12.2025, 17:25:55 - INFO - Server is running on port: 3030 
+25.12.2025, 17:30:05 - INFO - server.js loaded... 
+25.12.2025, 17:30:05 - INFO - Server is running on port: 3030 
+25.12.2025, 17:30:39 - INFO - server.js loaded... 
+25.12.2025, 17:30:39 - INFO - Server is running on port: 3030 
+25.12.2025, 17:30:44 - INFO - New connected socket [id: 6HOdxZeWtbdFdhqxAAAC] 
+25.12.2025, 17:30:44 - INFO - New connected socket [id: pNaQAbKTIIvEGG1bAAAD] 
+25.12.2025, 17:30:44 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: pNaQAbKTIIvEGG1bAAAD] 
+25.12.2025, 17:30:44 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: 6HOdxZeWtbdFdhqxAAAC] 
+25.12.2025, 17:30:52 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:30:53 - INFO - New connected socket [id: LJYB_iEbCIqAXi8YAAAF] 
+25.12.2025, 17:30:53 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: LJYB_iEbCIqAXi8YAAAF] 
+25.12.2025, 17:30:53 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:30:54 - INFO - New connected socket [id: 5jF8llwQ_eLoEP6cAAAH] 
+25.12.2025, 17:30:54 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: 5jF8llwQ_eLoEP6cAAAH] 
+25.12.2025, 17:31:13 - INFO - New connected socket [id: 4SJM_2KMPX9Tac18AAAJ] 
+25.12.2025, 17:31:19 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:31:19 - INFO - New connected socket [id: SQP2BDGdjyQxgIYPAAAL] 
+25.12.2025, 17:31:24 - INFO - User login:  | {"_id":"694d185843b75bb309efcf92","email":"bb@bb","fullname":"bb","isAdmin":false,"password":"bb","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"} 
+25.12.2025, 17:31:24 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: SQP2BDGdjyQxgIYPAAAL] 
+25.12.2025, 17:31:37 - INFO - Emit to all 
+25.12.2025, 17:31:37 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:32:15 - INFO - New connected socket [id: AY4bTh24KuUZhq8eAAAP] 
+25.12.2025, 17:32:15 - INFO - New connected socket [id: HmHgzDEeNm4D7LfUAAAQ] 
+25.12.2025, 17:32:15 - INFO - New connected socket [id: Te8Eh9os1EFq6R2DAAAR] 
+25.12.2025, 17:32:15 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: AY4bTh24KuUZhq8eAAAP] 
+25.12.2025, 17:32:15 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: HmHgzDEeNm4D7LfUAAAQ] 
+25.12.2025, 17:32:15 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: Te8Eh9os1EFq6R2DAAAR] 
+25.12.2025, 17:34:01 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:34:01 - INFO - Emit to all 
+25.12.2025, 17:34:05 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:34:05 - INFO - Emit to all 
+25.12.2025, 17:37:46 - INFO - Emit to all 
+25.12.2025, 17:37:46 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:37:48 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:37:48 - INFO - Emit to all 
+25.12.2025, 17:37:55 - INFO - Emit to all 
+25.12.2025, 17:37:55 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:37:55 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:37:55 - INFO - Emit to all 
+25.12.2025, 17:38:16 - INFO - Emit to all 
+25.12.2025, 17:38:16 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:38:19 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:38:19 - INFO - Emit to all 
+25.12.2025, 17:38:23 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:38:23 - INFO - Emit to all 
+25.12.2025, 17:38:26 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:38:26 - INFO - Emit to all 
+25.12.2025, 17:38:27 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:38:27 - INFO - Emit to all 
+25.12.2025, 17:45:55 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:45:55 - INFO - Emit to all 
+25.12.2025, 17:52:24 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:24 - INFO - Emit to all 
+25.12.2025, 17:52:29 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:29 - INFO - Emit to all 
+25.12.2025, 17:52:33 - INFO - Emit to all 
+25.12.2025, 17:52:33 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:33 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:33 - INFO - Emit to all 
+25.12.2025, 17:52:36 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:36 - INFO - Emit to all 
+25.12.2025, 17:52:37 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:37 - INFO - Emit to all 
+25.12.2025, 17:52:50 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:50 - INFO - Emit to all 
+25.12.2025, 17:52:55 - INFO - Broadcasting event: board-updated 
+25.12.2025, 17:52:55 - INFO - Emit to all 
+25.12.2025, 17:53:36 - INFO - New connected socket [id: uEOPbraosNN4C-ArAAAT] 
+25.12.2025, 17:53:36 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: uEOPbraosNN4C-ArAAAT] 
+25.12.2025, 17:53:36 - INFO - New connected socket [id: LY6xBRZcOT-v5o2IAAAW] 
+25.12.2025, 17:53:36 - INFO - New connected socket [id: OZ6uSpvNJNr7C3ldAAAX] 
+25.12.2025, 17:53:36 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: LY6xBRZcOT-v5o2IAAAW] 
+25.12.2025, 17:53:36 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: OZ6uSpvNJNr7C3ldAAAX] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:37 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:38 - INFO - New connected socket [id: NlBJTMAU3WvX3YLWAAAZ] 
+25.12.2025, 17:53:39 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: NlBJTMAU3WvX3YLWAAAZ] 
+25.12.2025, 17:53:39 - INFO - New connected socket [id: guOQEwXVEIftzdggAAAd] 
+25.12.2025, 17:53:39 - INFO - New connected socket [id: Tyo4CA3q5OkuIpikAAAc] 
+25.12.2025, 17:53:39 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: guOQEwXVEIftzdggAAAd] 
+25.12.2025, 17:53:39 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: Tyo4CA3q5OkuIpikAAAc] 
+25.12.2025, 17:53:51 - INFO - New connected socket [id: 9zlzjsEo0kHSEO2rAAAg] 
+25.12.2025, 17:53:51 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: 9zlzjsEo0kHSEO2rAAAg] 
+25.12.2025, 17:53:51 - INFO - New connected socket [id: p6hWYLNsFr6dxmUdAAAi] 
+25.12.2025, 17:53:51 - INFO - New connected socket [id: 5W49Ee4uI7QWynqKAAAj] 
+25.12.2025, 17:53:51 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: 5W49Ee4uI7QWynqKAAAj] 
+25.12.2025, 17:53:51 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: p6hWYLNsFr6dxmUdAAAi] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:51 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:52 - INFO - New connected socket [id: EgCrenUBc3GI9rjEAAAl] 
+25.12.2025, 17:53:52 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: EgCrenUBc3GI9rjEAAAl] 
+25.12.2025, 17:53:52 - INFO - New connected socket [id: nGIEHiyvMpl2jG5wAAAo] 
+25.12.2025, 17:53:52 - INFO - New connected socket [id: d2_1qQcBHV1bL961AAAp] 
+25.12.2025, 17:53:53 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: d2_1qQcBHV1bL961AAAp] 
+25.12.2025, 17:53:53 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: nGIEHiyvMpl2jG5wAAAo] 
+25.12.2025, 17:53:55 - INFO - New connected socket [id: tzYSAIfu4SoWZm2PAAAr] 
+25.12.2025, 17:53:55 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: tzYSAIfu4SoWZm2PAAAr] 
+25.12.2025, 17:53:55 - INFO - New connected socket [id: luRjA6rgUKN8cd8wAAAt] 
+25.12.2025, 17:53:55 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: luRjA6rgUKN8cd8wAAAt] 
+25.12.2025, 17:53:55 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:55 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:55 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:55 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:53:56 - INFO - New connected socket [id: _C4FEtsbxnu7L0loAAAw] 
+25.12.2025, 17:53:56 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: _C4FEtsbxnu7L0loAAAw] 
+25.12.2025, 17:53:56 - INFO - New connected socket [id: CgGc8D50CF-g4w6FAAAz] 
+25.12.2025, 17:53:56 - INFO - New connected socket [id: z6oiFyBPeb-12zmSAAA0] 
+25.12.2025, 17:53:57 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: CgGc8D50CF-g4w6FAAAz] 
+25.12.2025, 17:53:57 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: z6oiFyBPeb-12zmSAAA0] 
+25.12.2025, 17:54:17 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:54:17 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:54:17 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:54:40 - INFO - Socket disconnected [id: undefined] 
+25.12.2025, 17:54:48 - INFO - New connected socket [id: MNS84HfgaHDAypTzAAA2] 
+25.12.2025, 17:54:48 - INFO - New connected socket [id: 30hjqYRsQx9bxDSLAAA5] 
+25.12.2025, 17:54:48 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: MNS84HfgaHDAypTzAAA2] 
+25.12.2025, 17:54:48 - INFO - New connected socket [id: Lr_39UktzWdaUldFAAA6] 
+25.12.2025, 17:54:48 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: 30hjqYRsQx9bxDSLAAA5] 
+25.12.2025, 17:54:48 - INFO - Setting socket.userId = 694d185843b75bb309efcf92 for socket [id: Lr_39UktzWdaUldFAAA6] 

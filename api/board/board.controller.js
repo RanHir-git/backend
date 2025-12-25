@@ -1,5 +1,6 @@
 import { boardService } from './board.service.js'
 import { logger } from '../../services/logger.service.js'
+import { socketService } from '../../services/socket.service.js'
 
 export async function getBoard(req, res) {
   try {
@@ -19,7 +20,7 @@ export async function getBoard(req, res) {
 export async function getBoards(req, res) {
   try {
     const filterBy = {
-     title: req.query?.title || '',
+      title: req.query?.title || '',
     }
     const boards = await boardService.query(filterBy)
     res.send(boards)
@@ -30,9 +31,16 @@ export async function getBoards(req, res) {
 }
 
 export async function deleteBoard(req, res) {
+  var { loggedinUser } = req
+  const boardId = req.params.id
+
   try {
-    const shortId = req.params.id
-    await boardService.remove(shortId)
+    await boardService.remove(boardId)
+    socketService.broadcast({
+      type: 'board-removed',
+      data: boardId,
+      userId: loggedinUser,
+    })
     res.send({ msg: 'Deleted successfully' })
   } catch (err) {
     logger.error('Failed to delete board', err)
@@ -45,29 +53,48 @@ export async function deleteBoard(req, res) {
 }
 
 export async function updateBoard(req, res) {
+  var { loggedinUser } = req
+  console.log(loggedinUser)
   try {
     const board = req.body
     board._id = req.params.id
     const savedBoard = await boardService.update(board)
+
+    socketService.broadcast({
+      type: 'board-updated',
+      data: board,
+      userId: loggedinUser,
+    })
+
     res.send(savedBoard)
   } catch (err) {
     logger.error('Failed to update board', err)
     if (err.message.includes('not found')) {
       res.status(400).send({ err: 'Invalid board ID' })
     } else {
-      res.status(500).send({ err: 'Failed to update board', details: err.message })
+      res
+        .status(500)
+        .send({ err: 'Failed to update board', details: err.message })
     }
   }
 }
 
 export async function addBoard(req, res) {
+  var { loggedinUser } = req
+  const board = req.body
+
   try {
-    const board = req.body
     const savedBoard = await boardService.add(board)
+
+    socketService.broadcast({
+      type: 'board-added',
+      data: board,
+      userId: loggedinUser,
+    })
+
     res.send(savedBoard)
   } catch (err) {
     logger.error('Failed to add board', err)
     res.status(500).send({ err: 'Failed to add board' })
   }
 }
-

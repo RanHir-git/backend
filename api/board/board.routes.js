@@ -11,8 +11,8 @@ import {
 
 export const boardRoutes = express.Router()
 
-boardRoutes.get('/', getBoards)
-boardRoutes.get('/:id', getBoard)
-boardRoutes.post('/', addBoard)
+boardRoutes.get('/', requireAuth, getBoards)
+boardRoutes.get('/:id', requireAuth, getBoard)
+boardRoutes.post('/', requireAuth, addBoard)
 boardRoutes.put('/:id', requireAuth, updateBoard)
-boardRoutes.delete('/:id', deleteBoard)
+boardRoutes.delete('/:id', requireAuth, deleteBoard)

@@ -19,8 +19,14 @@ export async function getBoard(req, res) {
 
 export async function getBoards(req, res) {
   try {
+    const loggedinUser = req.loggedinUser
+    if (!loggedinUser || !loggedinUser._id) {
+      return res.status(401).send({ err: 'Not authenticated' })
+    }
+
     const filterBy = {
-      title: req.query?.title || '',
+      ...(req.query?.title && { title: req.query.title }),
+      members: loggedinUser._id, // Filter boards where user is a member or creator
     }
     const boards = await boardService.query(filterBy)
     res.send(boards)

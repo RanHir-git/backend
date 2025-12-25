@@ -10,6 +10,7 @@ const __dirname = dirname(__filename)
 
 
 import { logger } from './services/logger.service.js'
+import { dbService } from './services/db.service.js'
 logger.info('server.js loaded...')
 
 const app = express()
@@ -72,6 +73,19 @@ app.get('/*all', (req, res) => {
 
 const port = process.env.PORT || 3030
 
-app.listen(port, () => {
+// Test database connection on startup
+async function testDatabaseConnection() {
+    try {
+        await dbService.getCollection('user')
+        logger.info('Database connection test: SUCCESS')
+    } catch (err) {
+        logger.error('Database connection test: FAILED')
+        logger.error('Server will start but database operations will fail until connection is established')
+    }
+}
+
+app.listen(port, async () => {
     logger.info('Server is running on port: ' + port)
+    logger.info('Environment: ' + (process.env.NODE_ENV || 'development'))
+    await testDatabaseConnection()
 })

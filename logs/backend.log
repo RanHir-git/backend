@@ -711,3 +711,5 @@
 25.12.2025, 12:49:41 - INFO - Server is running on port: 3030 
 25.12.2025, 12:50:06 - DEBUG - auth.service - signup with email: helloooo@gmail.com, fullname: new user 
 25.12.2025, 12:50:06 - DEBUG - auth.route - new account created: {"email":"helloooo@gmail.com","fullname":"new user","isAdmin":false,"password":"newuser","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"694d16de0c054fa258de42b7"} 
+25.12.2025, 17:55:56 - INFO - server.js loaded... 
+25.12.2025, 17:55:56 - INFO - Server is running on port: 3030 

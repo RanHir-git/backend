@@ -120,6 +120,11 @@ async function update(board) {
       throw new Error(`Board not found with ID: ${board._id}`)
     }
 
+    // Filter out null/undefined members
+    const validMembers = Array.isArray(board.members) 
+      ? board.members.filter(member => member !== null && member !== undefined)
+      : []
+
     const boardToSave = {
       title: board.title,
       isStarred: board.isStarred,
@@ -127,7 +132,7 @@ async function update(board) {
       createdBy: board.createdBy,
       style: board.style,
       labels: board.labels,
-      members: board.members,
+      members: validMembers,
       groups: board.groups,
       activities: board.activities || [],
     }
@@ -156,6 +161,11 @@ async function add(board) {
     // Generate a short ID (8 characters)
     const plainShortId = utilService.generateShortId(8)
 
+    // Filter out null/undefined members
+    const validMembers = Array.isArray(board.members) 
+      ? board.members.filter(member => member !== null && member !== undefined)
+      : []
+
     const boardToAdd = {
       shortId: plainShortId,
       title: board.title,
@@ -169,7 +179,7 @@ async function add(board) {
         },
       },
       labels: board.labels || [],
-      members: board.members || [],
+      members: validMembers,
       groups: board.groups || [],
       activities: board.activities || [],
     }

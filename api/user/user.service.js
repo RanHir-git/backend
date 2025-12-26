@@ -70,8 +70,18 @@ async function update(user) {
     
     // Build update object with only provided fields
     const updateFields = {}
-    if (user.email !== undefined) updateFields.email = user.email
-    if (user.fullname !== undefined) updateFields.fullname = user.fullname
+    if (user.email !== undefined) {
+      if (!user.email || user.email.trim() === '') {
+        throw new Error('Email cannot be null or empty')
+      }
+      updateFields.email = user.email
+    }
+    if (user.fullname !== undefined) {
+      if (!user.fullname || user.fullname.trim() === '') {
+        throw new Error('Fullname cannot be null or empty')
+      }
+      updateFields.fullname = user.fullname
+    }
     if (user.imgUrl !== undefined) updateFields.imgUrl = user.imgUrl
     if (user.password !== undefined) updateFields.password = user.password
     if (user.score !== undefined) updateFields.score = user.score
@@ -89,6 +99,14 @@ async function update(user) {
 
 async function add(user) {
   try {
+    // Validate required fields are not null or empty
+    if (!user.email || user.email.trim() === '') {
+      throw new Error('Email is required and cannot be empty')
+    }
+    if (!user.fullname || user.fullname.trim() === '') {
+      throw new Error('Fullname is required and cannot be empty')
+    }
+
     // Validate that there are no such user:
     const existUser = await getByEmail(user.email)
     if (existUser) throw new Error('Email taken')

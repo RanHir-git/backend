@@ -10,6 +10,8 @@ export const dbService = {
 var dbConn = null
 
 async function getCollection(collectionName) {
+
+    console.log("user service:"+config.dbName)
     try {
         const db = await _connect()
         const collection = await db.collection(collectionName)

@@ -41,8 +41,10 @@ export async function addUser(req, res) {
         res.send(savedUser)
     } catch (err) {
         logger.error('Failed to add user', err)
-        if (err.message === 'Email taken') {
-            res.status(400).send({ err: 'Email taken' })
+        if (err.message === 'Email taken' || 
+            err.message === 'Email is required and cannot be empty' ||
+            err.message === 'Fullname is required and cannot be empty') {
+            res.status(400).send({ err: err.message })
         } else {
             res.status(500).send({ err: 'Failed to add user' })
         }
@@ -56,6 +58,11 @@ export async function updateUser(req, res) {
         res.send(savedUser)
     } catch (err) {
         logger.error('Failed to update user', err)
-        res.status(500).send({ err: 'Failed to update user' })
+        if (err.message === 'Email cannot be null or empty' ||
+            err.message === 'Fullname cannot be null or empty') {
+            res.status(400).send({ err: err.message })
+        } else {
+            res.status(500).send({ err: 'Failed to update user' })
+        }
     }
 }

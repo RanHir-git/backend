@@ -1,11 +1,9 @@
 export default {
-    dbURL: 'mongodb+srv://theUser:thePass@cluster0-klgzh.mongodb.net/test?retryWrites=true&w=majority',
-    dbName: 'marshmelloDB',
-    cloudinary: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME || '',
-        apiKey: process.env.CLOUDINARY_API_KEY || '',
-        apiSecret: process.env.CLOUDINARY_API_SECRET || ''
-    }
+  dbURL: process.env.MONGODB_URI,
+  dbName: 'marshmelloDB',
+  cloudinary: {
+    cloudName: process.env.CLOUDINARY_CLOUD_NAME || '',
+    apiKey: process.env.CLOUDINARY_API_KEY || '',
+    apiSecret: process.env.CLOUDINARY_API_SECRET || '',
+  },
 }
-
-

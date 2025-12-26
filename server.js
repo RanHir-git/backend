@@ -10,7 +10,6 @@ const __dirname = dirname(__filename)
 
 
 import { logger } from './services/logger.service.js'
-import { dbService } from './services/db.service.js'
 logger.info('server.js loaded...')
 
 const app = express()
@@ -26,15 +25,8 @@ if (process.env.NODE_ENV === 'production') {
     // Express serve static files on production environment
     app.use(express.static(path.resolve(__dirname, 'public')))
     console.log('__dirname: ', __dirname)
-    
-    // CORS for production - allow requests from the same origin (since frontend and backend are served together)
-    // But also allow credentials for cookies
-    app.use(cors({
-        origin: true, // Allow same-origin requests
-        credentials: true
-    }))
 } else {
-    // Configuring CORS for development
+    // Configuring CORS
     const corsOptions = {
         // Make sure origin contains the url your frontend is running on
         origin: [
@@ -73,19 +65,6 @@ app.get('/*all', (req, res) => {
 
 const port = process.env.PORT || 3030
 
-// Test database connection on startup
-async function testDatabaseConnection() {
-    try {
-        await dbService.getCollection('user')
-        logger.info('Database connection test: SUCCESS')
-    } catch (err) {
-        logger.error('Database connection test: FAILED')
-        logger.error('Server will start but database operations will fail until connection is established')
-    }
-}
-
-app.listen(port, async () => {
+app.listen(port, () => {
     logger.info('Server is running on port: ' + port)
-    logger.info('Environment: ' + (process.env.NODE_ENV || 'development'))
-    await testDatabaseConnection()
 })

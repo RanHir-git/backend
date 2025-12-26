@@ -1,5 +1,5 @@
 export default {
-    dbURL: process.env.MONGODB_URI || process.env.MONGO_URL || process.env.MONGODB_URL || '',
+    dbURL: process.env.MONGODB_URI || '',
     dbName: process.env.DB_NAME || 'marshmello online',
     cloudinary: {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME || '',

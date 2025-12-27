@@ -880,3 +880,8 @@
 27.12.2025, 15:43:00 - ERROR - Failed to Login | Error: Invalid email or password 
 27.12.2025, 15:43:03 - DEBUG - auth.service - login with email: aa@aa 
 27.12.2025, 15:43:03 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 15:49:43 - INFO - server.js loaded... 
+27.12.2025, 15:49:43 - INFO - Server is running on port: 3030 
+27.12.2025, 15:49:46 - INFO - server.js loaded... 
+27.12.2025, 15:49:46 - INFO - Server is running on port: 3030 
+27.12.2025, 15:49:46 - INFO - New connected socket [id: X-IKYJ3dgQ2HyiupAAAB] 

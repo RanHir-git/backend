@@ -8,4 +8,6 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     config = configDev
 }
+console.log('Config loaded:', process.env.NODE_ENV)
+// config=configProd
 config.isGuestMode = true

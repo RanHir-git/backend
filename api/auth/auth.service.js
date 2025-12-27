@@ -7,52 +7,86 @@ import { logger } from '../../services/logger.service.js'
 export const authService = {
     signup,
     login,
+    loginWithGoogle,
     getLoginToken,
     validateToken
 }
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
-async function login(email) {
-    // async function login(email, password) {
-    // logger.debug(`auth.service - login with username: ${username}`)
+async function login(email, password) {
+    logger.debug(`auth.service - login with email: ${email}`)
 
     const user = await userService.getByEmail(email)
     if (!user) throw new Error('Invalid email or password')
 
-    // const match = await bcrypt.compare(password, user.password)
-    // if (!match) throw new Error('Invalid email or password')
+    const match = await bcrypt.compare(password, user.password)
+    if (!match) throw new Error('Invalid email or password')
 
-    // delete user.password
+    delete user.password
     return user
 }
 
-async function signup(userCred) {
-    // async function signup(email, password, fullname) {
-    // const saltRounds = 10
+async function signup(email, password, fullname, imgUrl) {
+    logger.debug(`auth.service - signup with email: ${email}`)
 
-    const { email, password, fullname, imgUrl } = userCred
-    logger.debug(`auth.service - signup with email: ${email}, fullname: ${fullname}`)
-    if (!email || !fullname) throw new Error('Missing details')
-    // if (!email || !password || !fullname) throw new Error('Missing details')
+    if (!email || !password || !fullname) {
+        throw new Error('Missing details')
+    }
 
-    // const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ email, password, fullname, imgUrl })
-    // return userService.add({ email, password: hash, fullname, imgUrl })
+    const saltRounds = 10
+    const hash = await bcrypt.hash(password, saltRounds)
+
+    return userService.add({
+        email,
+        password: hash,
+        fullname,
+        imgUrl,
+        authProvider: 'local',
+        googleId: null
+    })
+}
+
+async function loginWithGoogle({ email, fullname, googleId, imgUrl }) {
+    logger.debug(`auth.service - Google login: ${email}`)
+
+    if (!email || !googleId) {
+        throw new Error('Missing Google user details')
+    }
+
+    let user = await userService.getByEmail(email)
+
+    if (!user) {
+        user = await userService.add({
+            email,
+            fullname,
+            googleId,
+            imgUrl,
+            authProvider: 'google',
+            password: null
+        })
+    }
+
+    delete user.password
+    return user
 }
 
 function getLoginToken(user) {
-    const userInfo = {_id : user._id, fullname: user.fullname, isAdmin: user.isAdmin}
-    return cryptr.encrypt(JSON.stringify(userInfo))    
+    const userInfo = {
+        _id: user._id,
+        fullname: user.fullname,
+        isAdmin: user.isAdmin
+    }
+
+    return cryptr.encrypt(JSON.stringify(userInfo))
 }
 
 function validateToken(loginToken) {
     try {
         const json = cryptr.decrypt(loginToken)
-        const loggedinUser = JSON.parse(json)
-        return loggedinUser
-    } catch(err) {
-        console.log('Invalid login token')
+        return JSON.parse(json)
+    } catch (err) {
+        logger.warn('Invalid login token')
+        return null
     }
-    return null
 }

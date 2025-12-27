@@ -1345,3 +1345,6 @@
 27.12.2025, 15:19:02 - INFO - Socket is leaving topic MPO2v1EO [id: rH8fq6wySdd3ReKkAAAV] 
 27.12.2025, 15:19:08 - INFO - Broadcasting event: board-updated 
 27.12.2025, 15:19:08 - INFO - Emit to all 
+27.12.2025, 15:49:09 - INFO - server.js loaded... 
+27.12.2025, 15:49:10 - INFO - Server is running on port: 3030 
+27.12.2025, 15:49:12 - INFO - New connected socket [id: i9a3U_mgCqBLSHUXAAAB] 

@@ -715,3 +715,168 @@
 25.12.2025, 12:59:48 - INFO - User login:  | {"_id":"694d04f1e771f32ea7a1396a","email":"asyakan03@gmail.com","fullname":"Asya Kandyba","isAdmin":false} 
 25.12.2025, 14:54:26 - DEBUG - auth.service - signup with email: aa@aa, fullname: aa 
 25.12.2025, 14:54:26 - DEBUG - auth.route - new account created: {"email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"694d34021f49a15180e4f458"} 
+27.12.2025, 11:47:40 - DEBUG - auth.service - signup with email: asyakan03@gmail.com, fullname: Asya Kandyba 
+27.12.2025, 11:47:40 - DEBUG - auth.route - new account created: {"email":"asyakan03@gmail.com","fullname":"Asya Kandyba","isAdmin":false,"imgUrl":"https://lh3.googleusercontent.com/a/ACg8ocLXUt3jDl2_ockNt4vl2Hw9RK2oHRQk-Jorotm1jk2ik3kolN6x=s96-c","_id":"694fab3c9c160ef45bda218c"} 
+27.12.2025, 11:54:20 - DEBUG - auth.service - signup with email: asyakan03@gmail.com, fullname: Asya Kandyba 
+27.12.2025, 11:54:21 - DEBUG - auth.route - new account created: {"email":"asyakan03@gmail.com","fullname":"Asya Kandyba","isAdmin":false,"imgUrl":"https://lh3.googleusercontent.com/a/ACg8ocLXUt3jDl2_ockNt4vl2Hw9RK2oHRQk-Jorotm1jk2ik3kolN6x=s96-c","_id":"694faccc9c160ef45bda218d"} 
+27.12.2025, 12:23:46 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:25:24 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:26:11 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:29:55 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:30:19 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:31:00 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:31:19 - DEBUG - auth.service - signup with email: aa@aa, fullname: aa 
+27.12.2025, 12:31:19 - DEBUG - auth.route - new account created: {"email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1","_id":"694fb5779c160ef45bda218f"} 
+27.12.2025, 12:31:33 - INFO - User login:  | {"_id":"694fb5779c160ef45bda218f","email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 12:32:11 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:32:51 - ERROR - Failed to Login Error: Invalid email or password 
+27.12.2025, 12:36:59 - INFO - User login:  | {"_id":"694fb5779c160ef45bda218f","email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 12:43:36 - INFO - User login:  | {"_id":"694fb5779c160ef45bda218f","email":"aa@aa","fullname":"aa","isAdmin":false,"password":"aa","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 12:44:58 - INFO - server.js loaded... 
+27.12.2025, 12:44:58 - INFO - Server is running on port: 3030 
+27.12.2025, 12:47:21 - INFO - server.js loaded... 
+27.12.2025, 12:47:21 - INFO - Server is running on port: 3030 
+27.12.2025, 12:47:31 - ERROR - Failed to Login Error: data and hash arguments required 
+27.12.2025, 12:47:47 - ERROR - Failed to Login Error: data and hash arguments required 
+27.12.2025, 12:48:41 - INFO - server.js loaded... 
+27.12.2025, 12:48:41 - INFO - Server is running on port: 3030 
+27.12.2025, 12:49:03 - INFO - server.js loaded... 
+27.12.2025, 12:49:03 - INFO - Server is running on port: 3030 
+27.12.2025, 12:49:13 - INFO - User login:  | {"_id":"694faccc9c160ef45bda218d","email":"asyakan03@gmail.com","fullname":"Asya Kandyba","isAdmin":false,"imgUrl":"https://lh3.googleusercontent.com/a/ACg8ocLXUt3jDl2_ockNt4vl2Hw9RK2oHRQk-Jorotm1jk2ik3kolN6x=s96-c"} 
+27.12.2025, 12:49:25 - INFO - User login:  | {"_id":"694fb5779c160ef45bda218f","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 12:50:02 - INFO - server.js loaded... 
+27.12.2025, 12:50:03 - INFO - Server is running on port: 3030 
+27.12.2025, 12:52:44 - INFO - server.js loaded... 
+27.12.2025, 12:52:44 - INFO - Server is running on port: 3030 
+27.12.2025, 12:54:09 - INFO - server.js loaded... 
+27.12.2025, 12:54:09 - INFO - Server is running on port: 3030 
+27.12.2025, 12:54:49 - INFO - server.js loaded... 
+27.12.2025, 12:54:49 - INFO - Server is running on port: 3030 
+27.12.2025, 12:56:45 - INFO - server.js loaded... 
+27.12.2025, 12:56:45 - INFO - Server is running on port: 3030 
+27.12.2025, 13:02:33 - INFO - server.js loaded... 
+27.12.2025, 13:02:33 - INFO - Server is running on port: 3030 
+27.12.2025, 13:02:50 - INFO - server.js loaded... 
+27.12.2025, 13:02:50 - INFO - Server is running on port: 3030 
+27.12.2025, 13:03:08 - INFO - server.js loaded... 
+27.12.2025, 13:03:08 - INFO - Server is running on port: 3030 
+27.12.2025, 13:03:23 - INFO - server.js loaded... 
+27.12.2025, 13:03:23 - INFO - Server is running on port: 3030 
+27.12.2025, 13:04:04 - INFO - server.js loaded... 
+27.12.2025, 13:04:04 - INFO - Server is running on port: 3030 
+27.12.2025, 13:52:42 - INFO - server.js loaded... 
+27.12.2025, 13:52:43 - INFO - Server is running on port: 3030 
+27.12.2025, 13:53:50 - INFO - server.js loaded... 
+27.12.2025, 13:53:50 - INFO - Server is running on port: 3030 
+27.12.2025, 13:56:27 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 13:56:27 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:00:27 - INFO - server.js loaded... 
+27.12.2025, 14:00:27 - INFO - Server is running on port: 3030 
+27.12.2025, 14:00:38 - DEBUG - auth.service - Google login: asyakan03@gmail.com 
+27.12.2025, 14:00:38 - ERROR - Failed Google login | Error: Email already registered with password login 
+27.12.2025, 14:01:34 - DEBUG - auth.service - Google login: asyakan03@gmail.com 
+27.12.2025, 14:01:34 - ERROR - Failed Google login | Error: Email already registered with password login 
+27.12.2025, 14:01:49 - DEBUG - auth.service - signup with email: aa@aa 
+27.12.2025, 14:01:49 - DEBUG - New account created: | {"email":"aa@aa","fullname":"aa","isAdmin":false,"password":"$2b$10$sQUQyeifyBSBCN4o6/g7xu8t5IlxiJ3gB6QucEbC9vuFpIbcdfLze","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1","_id":"694fcaadbc2c53a0a2bd4354"} 
+27.12.2025, 14:01:49 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:01:49 - ERROR - Failed to signup | Error: Please sign in with Google 
+27.12.2025, 14:04:53 - INFO - server.js loaded... 
+27.12.2025, 14:04:54 - INFO - Server is running on port: 3030 
+27.12.2025, 14:07:36 - INFO - server.js loaded... 
+27.12.2025, 14:07:37 - INFO - Server is running on port: 3030 
+27.12.2025, 14:07:41 - DEBUG - auth.service - signup with email: aa@aa 
+27.12.2025, 14:07:41 - ERROR - cannot insert user | Error: Email taken 
+27.12.2025, 14:07:41 - ERROR - Failed to signup | Error: Email taken 
+27.12.2025, 14:08:39 - DEBUG - auth.service - signup with email: aa@aa 
+27.12.2025, 14:08:39 - DEBUG - New account created: | {"email":"aa@aa","fullname":"aa","isAdmin":false,"password":"$2b$10$ejdRG1p.yvn4lh/7syNKT.6wwpfAT7dW.UW5c.zP65I6EUWTKCeBG","imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1","_id":"694fcc4772bafdfd0d97e0bd"} 
+27.12.2025, 14:08:39 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:09:06 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:09:06 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:09:15 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:09:15 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 14:09:36 - DEBUG - auth.service - Google login: asyakan03@gmail.com 
+27.12.2025, 14:10:10 - DEBUG - auth.service - login with email: bb@bb 
+27.12.2025, 14:10:10 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:10:17 - DEBUG - auth.service - Google login: asyakan03@gmail.com 
+27.12.2025, 14:18:06 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:18:06 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:18:14 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:18:14 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:20:27 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:20:27 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:21:33 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:21:33 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:23:10 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:23:10 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:24:40 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:24:40 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:25:14 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:25:14 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:26:56 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:26:56 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:29:03 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:29:03 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:30:22 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:30:22 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:30:53 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:30:53 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:33:56 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:33:56 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:34:26 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:34:26 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:39:34 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:39:34 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:40:25 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:40:25 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:40:50 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:40:50 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:42:02 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:42:02 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:44:11 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:44:11 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:50:13 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:50:13 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:50:34 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:50:34 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 14:50:52 - DEBUG - auth.service - login with email: asya@asya 
+27.12.2025, 14:50:52 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:55:13 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:55:13 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:55:29 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:55:29 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 14:56:00 - DEBUG - auth.service - signup with email: bb@bb 
+27.12.2025, 14:56:00 - DEBUG - New account created: | {"email":"bb@bb","fullname":"bb","isAdmin":false,"password":"$2b$10$3hq8dcjj6eVyp.Yf0WhI7O2niSrHQWl9B1GbInL8PHwHGhA35Z5F6","imgUrl":"https://avatar.oxro.io/avatar.svg?name=bb&caps=1","_id":"694fd76072bafdfd0d97e0bf"} 
+27.12.2025, 14:56:00 - DEBUG - auth.service - login with email: bb@bb 
+27.12.2025, 14:56:12 - DEBUG - auth.service - login with email: bb@bb 
+27.12.2025, 14:56:13 - INFO - User login: | {"_id":"694fd76072bafdfd0d97e0bf","email":"bb@bb","fullname":"bb","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=bb&caps=1"} 
+27.12.2025, 14:58:42 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 14:58:42 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 14:59:00 - DEBUG - auth.service - login with email: bb@bb 
+27.12.2025, 14:59:00 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:00:18 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:00:18 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:00:35 - DEBUG - auth.service - Google login: asyakan03@gmail.com 
+27.12.2025, 15:29:25 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:29:26 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:30:45 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:30:45 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:32:40 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:32:40 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 
+27.12.2025, 15:34:08 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:34:08 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:34:39 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:34:39 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:38:16 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:38:16 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:38:56 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:38:56 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:39:49 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:39:49 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:40:37 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:40:38 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:41:39 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:41:39 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:43:00 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:43:00 - ERROR - Failed to Login | Error: Invalid email or password 
+27.12.2025, 15:43:03 - DEBUG - auth.service - login with email: aa@aa 
+27.12.2025, 15:43:03 - INFO - User login: | {"_id":"694fcc4772bafdfd0d97e0bd","email":"aa@aa","fullname":"aa","isAdmin":false,"imgUrl":"https://avatar.oxro.io/avatar.svg?name=aa&caps=1"} 

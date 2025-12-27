@@ -935,3 +935,274 @@
 26.12.2025, 11:23:24 - INFO - Server is running on port: 3030 
 26.12.2025, 11:36:28 - INFO - server.js loaded... 
 26.12.2025, 11:36:28 - INFO - Server is running on port: 3030 
+27.12.2025, 11:16:25 - INFO - New connected socket [id: vqtQnPVzqd-x7PUxAAAC] 
+27.12.2025, 11:16:25 - INFO - New connected socket [id: msjyYyfZpnAaTSBLAAAD] 
+27.12.2025, 11:16:44 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 11:16:44 - INFO - New connected socket [id: 8nDKsX0x7M7cyfKUAAAF] 
+27.12.2025, 11:16:44 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: 8nDKsX0x7M7cyfKUAAAF] 
+27.12.2025, 11:34:31 - INFO - File uploaded successfully: | task-attachments/sjb7bwckussqsjphztet 
+27.12.2025, 11:34:31 - INFO - File uploaded successfully: | task-attachments/sjb7bwckussqsjphztet 
+27.12.2025, 11:34:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:31 - INFO - Emit to all 
+27.12.2025, 11:34:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:31 - INFO - Emit to all 
+27.12.2025, 11:34:33 - INFO - Emit to all 
+27.12.2025, 11:34:33 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:34 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:34 - INFO - Emit to all 
+27.12.2025, 11:34:34 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:34 - INFO - Emit to all 
+27.12.2025, 11:34:37 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:37 - INFO - Emit to all 
+27.12.2025, 11:34:39 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:39 - INFO - Emit to all 
+27.12.2025, 11:34:41 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:41 - INFO - Emit to all 
+27.12.2025, 11:34:44 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:44 - INFO - Emit to all 
+27.12.2025, 11:34:46 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:34:46 - INFO - Emit to all 
+27.12.2025, 11:35:02 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:02 - INFO - Emit to all 
+27.12.2025, 11:35:05 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:05 - INFO - Emit to all 
+27.12.2025, 11:35:06 - INFO - Emit to all 
+27.12.2025, 11:35:06 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:19 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:19 - INFO - Emit to all 
+27.12.2025, 11:35:26 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:26 - INFO - Emit to all 
+27.12.2025, 11:35:27 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:27 - INFO - Emit to all 
+27.12.2025, 11:35:29 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:29 - INFO - Emit to all 
+27.12.2025, 11:35:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 11:35:31 - INFO - Emit to all 
+27.12.2025, 12:23:24 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:23:24 - INFO - Emit to all 
+27.12.2025, 12:23:27 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:54:36 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:54:36 - INFO - New connected socket [id: 19PLmUssOasLr_TXAAAH] 
+27.12.2025, 12:54:36 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: 19PLmUssOasLr_TXAAAH] 
+27.12.2025, 12:54:40 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:54:40 - INFO - New connected socket [id: kG1T6qO_hhU2P4w2AAAJ] 
+27.12.2025, 12:54:40 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: kG1T6qO_hhU2P4w2AAAJ] 
+27.12.2025, 12:54:43 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:54:44 - INFO - New connected socket [id: _DShDf2BrNiBpKgZAAAL] 
+27.12.2025, 12:54:44 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: _DShDf2BrNiBpKgZAAAL] 
+27.12.2025, 12:55:27 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:27 - INFO - Emit to all 
+27.12.2025, 12:55:27 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:27 - INFO - Emit to all 
+27.12.2025, 12:55:27 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:27 - INFO - Emit to all 
+27.12.2025, 12:55:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:28 - INFO - Emit to all 
+27.12.2025, 12:55:28 - INFO - Emit to all 
+27.12.2025, 12:55:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:28 - INFO - Emit to all 
+27.12.2025, 12:55:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:28 - INFO - Emit to all 
+27.12.2025, 12:55:29 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:29 - INFO - Emit to all 
+27.12.2025, 12:55:29 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:29 - INFO - Emit to all 
+27.12.2025, 12:55:29 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:29 - INFO - Emit to all 
+27.12.2025, 12:55:30 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:30 - INFO - Emit to all 
+27.12.2025, 12:55:30 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:30 - INFO - Emit to all 
+27.12.2025, 12:55:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:31 - INFO - Emit to all 
+27.12.2025, 12:55:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:31 - INFO - Emit to all 
+27.12.2025, 12:55:32 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:32 - INFO - Emit to all 
+27.12.2025, 12:55:35 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:35 - INFO - Emit to all 
+27.12.2025, 12:55:36 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:36 - INFO - Emit to all 
+27.12.2025, 12:55:36 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:55:36 - INFO - Emit to all 
+27.12.2025, 12:55:42 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:55:42 - INFO - New connected socket [id: uu044HXIH-w3r047AAAN] 
+27.12.2025, 12:55:42 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: uu044HXIH-w3r047AAAN] 
+27.12.2025, 12:58:44 - INFO - Socket is leaving topic oHd0xzwj [id: uu044HXIH-w3r047AAAN] 
+27.12.2025, 12:58:46 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:46 - INFO - Emit to all 
+27.12.2025, 12:58:46 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:46 - INFO - Emit to all 
+27.12.2025, 12:58:46 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:46 - INFO - Emit to all 
+27.12.2025, 12:58:46 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:46 - INFO - Emit to all 
+27.12.2025, 12:58:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:47 - INFO - Emit to all 
+27.12.2025, 12:58:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:47 - INFO - Emit to all 
+27.12.2025, 12:58:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:47 - INFO - Emit to all 
+27.12.2025, 12:58:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:47 - INFO - Emit to all 
+27.12.2025, 12:58:48 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:48 - INFO - Emit to all 
+27.12.2025, 12:58:48 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:48 - INFO - Emit to all 
+27.12.2025, 12:58:48 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:48 - INFO - Emit to all 
+27.12.2025, 12:58:48 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:48 - INFO - Emit to all 
+27.12.2025, 12:58:48 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:48 - INFO - Emit to all 
+27.12.2025, 12:58:49 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:49 - INFO - Emit to all 
+27.12.2025, 12:58:50 - INFO - Broadcasting event: board-updated 
+27.12.2025, 12:58:50 - INFO - Emit to all 
+27.12.2025, 12:58:53 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 12:58:53 - INFO - New connected socket [id: LildAx-JAm0e2rVjAAAP] 
+27.12.2025, 12:58:54 - INFO - Setting socket.userId = 694d184043b75bb309efcf90 for socket [id: LildAx-JAm0e2rVjAAAP] 
+27.12.2025, 12:58:56 - INFO - Socket is leaving topic jjuSbcVa [id: LildAx-JAm0e2rVjAAAP] 
+27.12.2025, 13:07:07 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:07 - INFO - Emit to all 
+27.12.2025, 13:07:07 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:07 - INFO - Emit to all 
+27.12.2025, 13:07:08 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:08 - INFO - Emit to all 
+27.12.2025, 13:07:44 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:44 - INFO - Emit to all 
+27.12.2025, 13:07:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:47 - INFO - Emit to all 
+27.12.2025, 13:07:49 - INFO - Emit to all 
+27.12.2025, 13:07:49 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:50 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:07:50 - INFO - Emit to all 
+27.12.2025, 13:08:04 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:08:04 - INFO - Emit to all 
+27.12.2025, 13:08:05 - INFO - Emit to all 
+27.12.2025, 13:08:05 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:10:10 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:10:10 - INFO - Emit to all 
+27.12.2025, 13:10:11 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:10:11 - INFO - Emit to all 
+27.12.2025, 13:10:12 - INFO - Emit to all 
+27.12.2025, 13:10:12 - INFO - Broadcasting event: board-updated 
+27.12.2025, 13:12:14 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:16 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:18 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:19 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:20 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:21 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:21 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:12:21 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:14:29 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:15:40 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:16:47 - INFO - server.js loaded... 
+27.12.2025, 13:16:48 - INFO - Server is running on port: 3030 
+27.12.2025, 13:16:48 - INFO - New connected socket [id: VEMZuBR4XfcMpBKSAAAB] 
+27.12.2025, 13:16:52 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:16:56 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:16:57 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:17:06 - INFO - server.js loaded... 
+27.12.2025, 13:17:06 - INFO - Server is running on port: 3030 
+27.12.2025, 13:17:06 - INFO - New connected socket [id: a270OG_PnYEkEg7IAAAB] 
+27.12.2025, 13:17:16 - INFO - server.js loaded... 
+27.12.2025, 13:17:16 - INFO - Server is running on port: 3030 
+27.12.2025, 13:17:17 - INFO - New connected socket [id: V0ZDHdArxbsuO9t3AAAB] 
+27.12.2025, 13:17:19 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:17:55 - INFO - server.js loaded... 
+27.12.2025, 13:17:55 - INFO - Server is running on port: 3030 
+27.12.2025, 13:17:56 - INFO - New connected socket [id: wB-dsPS6-RogTYHCAAAB] 
+27.12.2025, 13:17:59 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:18:08 - INFO - Server is running on port: 3030 
+27.12.2025, 13:18:08 - INFO - server.js loaded... 
+27.12.2025, 13:18:09 - INFO - New connected socket [id: 6Jwl2RWGN5WG3B-qAAAB] 
+27.12.2025, 13:18:10 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:18:30 - INFO - server.js loaded... 
+27.12.2025, 13:18:30 - INFO - Server is running on port: 3030 
+27.12.2025, 13:18:31 - INFO - New connected socket [id: IS-Bnajz-lrt3ldFAAAB] 
+27.12.2025, 13:18:58 - INFO - server.js loaded... 
+27.12.2025, 13:18:58 - INFO - Server is running on port: 3030 
+27.12.2025, 13:18:59 - INFO - New connected socket [id: OprWGyu1axvAiGtiAAAB] 
+27.12.2025, 13:19:01 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:02 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:04 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:22 - INFO - server.js loaded... 
+27.12.2025, 13:19:22 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:22 - INFO - New connected socket [id: mzOKzccnXvyhk_G7AAAB] 
+27.12.2025, 13:19:25 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:26 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:29 - INFO - server.js loaded... 
+27.12.2025, 13:19:29 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:30 - INFO - New connected socket [id: fuWbx0ekTZ4h9qVcAAAB] 
+27.12.2025, 13:19:37 - INFO - server.js loaded... 
+27.12.2025, 13:19:37 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:37 - INFO - New connected socket [id: db2ybL5k96uUfrXQAAAB] 
+27.12.2025, 13:19:38 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:39 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:42 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:46 - INFO - server.js loaded... 
+27.12.2025, 13:19:46 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:47 - INFO - New connected socket [id: IssQB4MP4m49oHc4AAAB] 
+27.12.2025, 13:19:48 - INFO - server.js loaded... 
+27.12.2025, 13:19:48 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:49 - INFO - New connected socket [id: Q48_5ypn_aC3IZ3WAAAB] 
+27.12.2025, 13:19:56 - INFO - server.js loaded... 
+27.12.2025, 13:19:56 - INFO - Server is running on port: 3030 
+27.12.2025, 13:19:57 - INFO - New connected socket [id: 94_dUqgjfqBnsqqDAAAB] 
+27.12.2025, 13:19:58 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:58 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:19:59 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:01 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:01 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:02 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:02 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:02 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:03 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:07 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:10 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:11 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:11 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:13 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:15 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:16 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:17 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:19 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:26 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:33 - INFO - server.js loaded... 
+27.12.2025, 13:20:33 - INFO - Server is running on port: 3030 
+27.12.2025, 13:20:34 - INFO - New connected socket [id: lhsOorqIwYyr2qI_AAAB] 
+27.12.2025, 13:20:34 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:42 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:43 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:20:49 - INFO - Server is running on port: 3030 
+27.12.2025, 13:20:49 - INFO - server.js loaded... 
+27.12.2025, 13:20:49 - INFO - New connected socket [id: SgTKEMD88_GCRiUSAAAB] 
+27.12.2025, 13:21:07 - INFO - server.js loaded... 
+27.12.2025, 13:21:07 - INFO - Server is running on port: 3030 
+27.12.2025, 13:21:07 - INFO - New connected socket [id: mHBjYR5XESByRoLyAAAB] 
+27.12.2025, 13:21:08 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:09 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:09 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:10 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:15 - INFO - server.js loaded... 
+27.12.2025, 13:21:15 - INFO - Server is running on port: 3030 
+27.12.2025, 13:21:16 - INFO - New connected socket [id: Y12NnGd9qgwPNcWVAAAB] 
+27.12.2025, 13:21:17 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:18 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:18 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:21:19 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:24:14 - INFO - server.js loaded... 
+27.12.2025, 13:24:14 - INFO - Server is running on port: 3030 
+27.12.2025, 13:24:15 - INFO - New connected socket [id: oIWnf6wgTCyh5vI4AAAB] 
+27.12.2025, 13:24:22 - ERROR - Failed to get boards | TypeError: Assignment to constant variable. 
+27.12.2025, 13:24:50 - INFO - server.js loaded... 
+27.12.2025, 13:24:50 - INFO - Server is running on port: 3030 
+27.12.2025, 13:24:51 - INFO - New connected socket [id: vHr3QeRH70iPD_QQAAAB] 
+27.12.2025, 13:26:11 - INFO - server.js loaded... 
+27.12.2025, 13:26:11 - INFO - Server is running on port: 3030 
+27.12.2025, 13:26:12 - INFO - New connected socket [id: NzsEVITZjp7bs-8vAAAB] 
+27.12.2025, 13:26:52 - INFO - server.js loaded... 
+27.12.2025, 13:26:52 - INFO - Server is running on port: 3030 
+27.12.2025, 13:26:52 - INFO - New connected socket [id: uWN8mpdwuFlS-FBXAAAB] 

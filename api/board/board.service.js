@@ -15,19 +15,20 @@ export const boardService = {
 function serializeBoard(board) {
   if (!board) return board
   // Use shortId if available, otherwise fall back to _id for backward compatibility
-  const idForResponse = board.shortId || (board._id instanceof ObjectId ? board._id.toString() : board._id)
+  const idForResponse =
+    board.shortId ||
+    (board._id instanceof ObjectId ? board._id.toString() : board._id)
 
   return {
     ...board,
     _id: idForResponse,
-    shortId: undefined // Don't expose shortId field to frontend
+    shortId: undefined, // Don't expose shortId field to frontend
   }
 }
 
 async function query(filterBy = {}) {
   const criteria = _buildCriteria(filterBy)
-  console.log('boardService: criteria:', criteria)
-  console.log('boardService: filterBy:', filterBy)
+
   try {
     const collection = await dbService.getCollection('board')
     var boards = await collection.find(criteria).toArray()
@@ -121,7 +122,7 @@ async function update(board) {
     }
 
     // Filter out null/undefined members
-    const validMembers = Array.isArray(board.members) 
+    const validMembers = Array.isArray(board.members)
       ? board.members.filter(member => member !== null && member !== undefined)
       : []
 
@@ -142,7 +143,9 @@ async function update(board) {
       boardToSave.shortId = shortId
     }
 
-    const result = await collection.updateOne(updateQuery, { $set: boardToSave })
+    const result = await collection.updateOne(updateQuery, {
+      $set: boardToSave,
+    })
 
     if (result.matchedCount === 0) {
       throw new Error(`Board update failed`)
@@ -162,7 +165,7 @@ async function add(board) {
     const plainShortId = utilService.generateShortId(8)
 
     // Filter out null/undefined members
-    const validMembers = Array.isArray(board.members) 
+    const validMembers = Array.isArray(board.members)
       ? board.members.filter(member => member !== null && member !== undefined)
       : []
 
@@ -193,31 +196,47 @@ async function add(board) {
   }
 }
 
+// function _buildCriteria(filterBy) {
+//   const criteria = {}
+
+//   // Filter by user membership or creation
+//   if (filterBy.members) {
+//     criteria.$or = [{ 'members._id': filterBy.members }]
+//   }
+
+//   // Filter by title (if user filter exists, this becomes an $and condition)
+//   if (filterBy.title) {
+//     const txtCriteria = { $regex: filterBy.title, $options: 'i' }
+//     if (criteria.$or) {
+//       // User filter exists, combine with $and
+//       criteria = {
+//         $and: [{ $or: criteria.$or }, { title: txtCriteria }],
+//       }
+//     } else {
+//       criteria.title = txtCriteria
+//     }
+//   }
+
+//   return criteria
+// }
+
 function _buildCriteria(filterBy) {
   const criteria = {}
-  
-  // Filter by user membership or creation
+
   if (filterBy.members) {
-    criteria.$or = [
-      { 'members._id': filterBy.members }
-    ]
+    criteria.$or = [{ 'members._id': filterBy.members }]
   }
-  
-  // Filter by title (if user filter exists, this becomes an $and condition)
+
   if (filterBy.title) {
     const txtCriteria = { $regex: filterBy.title, $options: 'i' }
+
     if (criteria.$or) {
-      // User filter exists, combine with $and
-      criteria = {
-        $and: [
-          { $or: criteria.$or },
-          { title: txtCriteria }
-        ]
-      }
+      criteria.$and = [{ $or: criteria.$or }, { title: txtCriteria }]
+      delete criteria.$or
     } else {
       criteria.title = txtCriteria
     }
   }
-  
+
   return criteria
 }

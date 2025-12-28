@@ -8,6 +8,7 @@ import {
   updateBoard,
   addBoard,
 } from './board.controller.js'
+import { handleAICommand } from '../ai/ai.controller.js'
 
 export const boardRoutes = express.Router()
 
@@ -16,3 +17,5 @@ boardRoutes.get('/:id', requireAuth, getBoard)
 boardRoutes.post('/', requireAuth, addBoard)
 boardRoutes.put('/:id', requireAuth, updateBoard)
 boardRoutes.delete('/:id', requireAuth, deleteBoard)
+
+boardRoutes.post('/command', requireAuth, handleAICommand)

@@ -65,6 +65,7 @@ app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)
 app.use('/api/upload', uploadRoutes)
+app.use('/api/upload', uploadRoutes)
 
 setupSocketAPI(server)
 

@@ -885,3 +885,297 @@
 27.12.2025, 15:49:46 - INFO - server.js loaded... 
 27.12.2025, 15:49:46 - INFO - Server is running on port: 3030 
 27.12.2025, 15:49:46 - INFO - New connected socket [id: X-IKYJ3dgQ2HyiupAAAB] 
+27.12.2025, 16:33:10 - INFO - User login:  | {"_id":"669ebd75f0de93587962c526","email":"test@gamil.com","password":"aaa","fullname":"test","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"} 
+27.12.2025, 16:37:59 - INFO - server.js loaded... 
+27.12.2025, 16:37:59 - INFO - Server is running on port: 3030 
+27.12.2025, 16:38:01 - INFO - New connected socket [id: oMKNe7200IYwABa8AAAB] 
+27.12.2025, 16:38:01 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: oMKNe7200IYwABa8AAAB] 
+27.12.2025, 16:38:01 - INFO - New connected socket [id: 72TfJE5os4-_XameAAAD] 
+27.12.2025, 16:39:45 - INFO - server.js loaded... 
+27.12.2025, 16:39:45 - INFO - Server is running on port: 3030 
+27.12.2025, 16:39:48 - INFO - New connected socket [id: NghkEqF2NBbvgj2YAAAB] 
+27.12.2025, 16:39:48 - INFO - Setting socket.userId = 669ebd75f0de93587962c526 for socket [id: NghkEqF2NBbvgj2YAAAB] 
+27.12.2025, 16:39:49 - INFO - New connected socket [id: jn4RHTDguZbhKRDGAAAD] 
+27.12.2025, 16:39:49 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: jn4RHTDguZbhKRDGAAAD] 
+27.12.2025, 16:39:57 - INFO - Broadcasting event: board-updated 
+27.12.2025, 16:39:57 - INFO - Emit to all 
+27.12.2025, 16:40:01 - INFO - Broadcasting event: board-updated 
+27.12.2025, 16:40:01 - INFO - Emit to all 
+27.12.2025, 16:40:04 - INFO - Broadcasting event: board-updated 
+27.12.2025, 16:40:04 - INFO - Emit to all 
+27.12.2025, 16:40:29 - INFO - Broadcasting event: board-updated 
+27.12.2025, 16:40:29 - INFO - Emit to all 
+27.12.2025, 16:44:53 - INFO - Broadcasting event: board-updated 
+27.12.2025, 16:44:53 - INFO - Emit to all 
+27.12.2025, 16:44:57 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 16:44:58 - INFO - New connected socket [id: mmsSySKFRYVZ3WIsAAAF] 
+27.12.2025, 16:44:58 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: mmsSySKFRYVZ3WIsAAAF] 
+27.12.2025, 16:45:01 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 16:59:31 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:03:55 - INFO - New connected socket [id: RIOg0_WJORCkVMnrAAAH] 
+27.12.2025, 17:04:16 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:04:18 - INFO - New connected socket [id: _8fDnEL97tWQvZ_6AAAJ] 
+27.12.2025, 17:04:18 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: _8fDnEL97tWQvZ_6AAAJ] 
+27.12.2025, 17:16:30 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:25:28 - INFO - New connected socket [id: XXYUNEOzWdNqqphJAAAL] 
+27.12.2025, 17:25:45 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:25:47 - INFO - New connected socket [id: 1LnHt0luV4l0LjowAAAN] 
+27.12.2025, 17:25:48 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 1LnHt0luV4l0LjowAAAN] 
+27.12.2025, 17:38:12 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:38:14 - INFO - New connected socket [id: ulu4ubfuKexf2CmMAAAP] 
+27.12.2025, 17:38:14 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: ulu4ubfuKexf2CmMAAAP] 
+27.12.2025, 17:38:17 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:38:18 - INFO - New connected socket [id: kdTn-YJBXxnNIlGsAAAR] 
+27.12.2025, 17:38:19 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: kdTn-YJBXxnNIlGsAAAR] 
+27.12.2025, 17:38:46 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:38:47 - INFO - New connected socket [id: Ly6sJk-Ebv-3okZQAAAT] 
+27.12.2025, 17:38:48 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: Ly6sJk-Ebv-3okZQAAAT] 
+27.12.2025, 17:38:56 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 17:40:19 - INFO - New connected socket [id: _uGWB0gXeXyIZ2MeAAAV] 
+27.12.2025, 17:40:19 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: _uGWB0gXeXyIZ2MeAAAV] 
+27.12.2025, 17:53:56 - INFO - Broadcasting event: board-updated 
+27.12.2025, 17:53:56 - INFO - Emit to all 
+27.12.2025, 17:54:05 - INFO - Broadcasting event: board-updated 
+27.12.2025, 17:54:05 - INFO - Emit to all 
+27.12.2025, 17:54:06 - INFO - Broadcasting event: board-updated 
+27.12.2025, 17:54:06 - INFO - Emit to all 
+27.12.2025, 18:14:26 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:14:26 - INFO - Emit to all 
+27.12.2025, 18:14:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:14:28 - INFO - Emit to all 
+27.12.2025, 18:14:31 - INFO - Emit to all 
+27.12.2025, 18:14:31 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:14:50 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:14:50 - INFO - Emit to all 
+27.12.2025, 18:14:51 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:14:51 - INFO - Emit to all 
+27.12.2025, 18:15:03 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:15:03 - INFO - Emit to all 
+27.12.2025, 18:15:06 - INFO - Emit to all 
+27.12.2025, 18:15:06 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:15:08 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:15:08 - INFO - Emit to all 
+27.12.2025, 18:21:33 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:21:33 - INFO - Emit to all 
+27.12.2025, 18:23:54 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:23:54 - INFO - Emit to all 
+27.12.2025, 18:23:54 - INFO - Emit to all 
+27.12.2025, 18:23:54 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:23:55 - INFO - Emit to all 
+27.12.2025, 18:23:55 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:23:55 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:23:55 - INFO - Emit to all 
+27.12.2025, 18:35:28 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:35:28 - INFO - Emit to all 
+27.12.2025, 18:38:28 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 18:40:00 - INFO - New connected socket [id: xoXcbx7InzIMM_E6AAAX] 
+27.12.2025, 18:40:00 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: xoXcbx7InzIMM_E6AAAX] 
+27.12.2025, 18:56:43 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:56:43 - INFO - Emit to all 
+27.12.2025, 18:57:23 - INFO - Emit to all 
+27.12.2025, 18:57:23 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:57:25 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:57:25 - INFO - Emit to all 
+27.12.2025, 18:57:30 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:57:30 - INFO - Emit to all 
+27.12.2025, 18:57:41 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:57:41 - INFO - Emit to all 
+27.12.2025, 18:58:54 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:58:54 - INFO - Emit to all 
+27.12.2025, 18:58:56 - INFO - Emit to all 
+27.12.2025, 18:58:56 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:58:57 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:58:57 - INFO - Emit to all 
+27.12.2025, 18:59:05 - INFO - Broadcasting event: board-updated 
+27.12.2025, 18:59:05 - INFO - Emit to all 
+27.12.2025, 19:33:14 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 19:33:19 - INFO - New connected socket [id: cxCHlJuFVqwjA-SLAAAZ] 
+27.12.2025, 19:33:20 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 19:33:22 - INFO - New connected socket [id: _4Sn_c1RqbeezyPlAAAb] 
+27.12.2025, 19:33:22 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: _4Sn_c1RqbeezyPlAAAb] 
+27.12.2025, 19:41:45 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 19:42:28 - INFO - New connected socket [id: I0a99awBXLpMRM7OAAAd] 
+27.12.2025, 19:46:45 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 19:46:46 - INFO - New connected socket [id: 31Qt0MOb7oF0HNMHAAAf] 
+27.12.2025, 19:46:46 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 31Qt0MOb7oF0HNMHAAAf] 
+27.12.2025, 19:46:54 - INFO - Broadcasting event: board-updated 
+27.12.2025, 19:46:54 - INFO - Emit to all 
+27.12.2025, 19:46:55 - INFO - Broadcasting event: board-updated 
+27.12.2025, 19:46:55 - INFO - Emit to all 
+27.12.2025, 19:56:02 - INFO - Broadcasting event: board-updated 
+27.12.2025, 19:56:02 - INFO - Emit to all 
+27.12.2025, 19:56:05 - INFO - Broadcasting event: board-updated 
+27.12.2025, 19:56:05 - INFO - Emit to all 
+27.12.2025, 20:07:46 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 20:07:48 - INFO - New connected socket [id: VagND6OgfiZmi6WVAAAh] 
+27.12.2025, 20:07:49 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: VagND6OgfiZmi6WVAAAh] 
+27.12.2025, 20:10:34 - INFO - Broadcasting event: board-updated 
+27.12.2025, 20:10:34 - INFO - Emit to all 
+27.12.2025, 20:10:35 - INFO - Broadcasting event: board-updated 
+27.12.2025, 20:10:35 - INFO - Emit to all 
+27.12.2025, 20:10:47 - INFO - Broadcasting event: board-updated 
+27.12.2025, 20:10:47 - INFO - Emit to all 
+27.12.2025, 20:19:51 - INFO - Broadcasting event: board-updated 
+27.12.2025, 20:19:51 - INFO - Emit to all 
+27.12.2025, 20:19:57 - INFO - Broadcasting event: board-updated 
+27.12.2025, 20:19:57 - INFO - Emit to all 
+27.12.2025, 21:13:15 - INFO - Socket disconnected [id: undefined] 
+27.12.2025, 21:19:20 - INFO - New connected socket [id: LcGE0MOWhp2EJSn2AAAj] 
+28.12.2025, 8:59:08 - INFO - server.js loaded... 
+28.12.2025, 8:59:08 - INFO - Server is running on port: 3030 
+28.12.2025, 9:04:09 - INFO - New connected socket [id: vR3s6zUkrk0xgEpHAAAB] 
+28.12.2025, 9:04:09 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: vR3s6zUkrk0xgEpHAAAB] 
+28.12.2025, 9:40:20 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 9:40:22 - INFO - New connected socket [id: MHFwGowg228_U853AAAD] 
+28.12.2025, 9:40:22 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: MHFwGowg228_U853AAAD] 
+28.12.2025, 9:40:27 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 9:40:28 - INFO - New connected socket [id: -qP1WFjyTnC08-FtAAAF] 
+28.12.2025, 9:40:28 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: -qP1WFjyTnC08-FtAAAF] 
+28.12.2025, 9:51:30 - INFO - Broadcasting event: board-updated 
+28.12.2025, 9:51:30 - INFO - Emit to all 
+28.12.2025, 9:51:31 - INFO - Broadcasting event: board-updated 
+28.12.2025, 9:51:31 - INFO - Emit to all 
+28.12.2025, 10:07:43 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:07:44 - INFO - New connected socket [id: PVW7dLIvQ6kWGTzXAAAH] 
+28.12.2025, 10:07:44 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: PVW7dLIvQ6kWGTzXAAAH] 
+28.12.2025, 10:07:53 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:07:53 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:08:18 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:08:18 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:08:21 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:08:21 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:09:15 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:09:15 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:09:19 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:09:19 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:09:25 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:09:26 - INFO - New connected socket [id: mhXdo2RFGe8YJNNKAAAJ] 
+28.12.2025, 10:09:41 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:09:42 - INFO - New connected socket [id: vHr_XvKuz47R68VhAAAL] 
+28.12.2025, 10:09:52 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:09:52 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:10:20 - INFO - server.js loaded... 
+28.12.2025, 10:10:20 - INFO - Server is running on port: 3030 
+28.12.2025, 10:10:21 - INFO - New connected socket [id: HOBnxZZzuRRX9kVYAAAB] 
+28.12.2025, 10:10:26 - DEBUG - auth.service - login with email: ranhirschorn@gmail.com 
+28.12.2025, 10:10:26 - ERROR - Failed to Login | Error: data and hash arguments required 
+28.12.2025, 10:11:28 - DEBUG - auth.service - Google login: ranhirschorn@gmail.com 
+28.12.2025, 10:11:29 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: HOBnxZZzuRRX9kVYAAAB] 
+28.12.2025, 10:25:04 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:25:07 - INFO - New connected socket [id: 0xc-IfXmrEsJeVOrAAAD] 
+28.12.2025, 10:25:07 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 0xc-IfXmrEsJeVOrAAAD] 
+28.12.2025, 10:25:14 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:25:15 - INFO - New connected socket [id: HffDbj5F7g3e3olTAAAF] 
+28.12.2025, 10:25:15 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: HffDbj5F7g3e3olTAAAF] 
+28.12.2025, 10:25:31 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:25:33 - INFO - New connected socket [id: 6iS7uO5eqbrBWP-wAAAH] 
+28.12.2025, 10:25:33 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 6iS7uO5eqbrBWP-wAAAH] 
+28.12.2025, 10:29:55 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:29:56 - INFO - New connected socket [id: hp6SQGcUswZUcrbtAAAJ] 
+28.12.2025, 10:29:56 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: hp6SQGcUswZUcrbtAAAJ] 
+28.12.2025, 10:29:58 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:29:59 - INFO - New connected socket [id: e2A1D0PwtQYvGX05AAAL] 
+28.12.2025, 10:29:59 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: e2A1D0PwtQYvGX05AAAL] 
+28.12.2025, 10:32:44 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:32:45 - INFO - New connected socket [id: 7vb8xeEb2ske6-wvAAAN] 
+28.12.2025, 10:32:45 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 7vb8xeEb2ske6-wvAAAN] 
+28.12.2025, 10:32:53 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:32:54 - INFO - New connected socket [id: n945bmoD4hqHMdcsAAAP] 
+28.12.2025, 10:32:54 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: n945bmoD4hqHMdcsAAAP] 
+28.12.2025, 10:33:06 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:33:07 - INFO - New connected socket [id: Bfj7VQiBtkd2zONlAAAR] 
+28.12.2025, 10:33:07 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: Bfj7VQiBtkd2zONlAAAR] 
+28.12.2025, 10:33:35 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 10:33:36 - INFO - New connected socket [id: A3NadoX2UkOBZxiRAAAT] 
+28.12.2025, 10:33:36 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: A3NadoX2UkOBZxiRAAAT] 
+28.12.2025, 10:38:33 - INFO - Broadcasting event: board-updated 
+28.12.2025, 10:38:33 - INFO - Emit to all 
+28.12.2025, 11:17:38 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 11:17:48 - INFO - New connected socket [id: p2lkNx2eQXAZPtIrAAAV] 
+28.12.2025, 11:27:56 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 12:02:03 - INFO - New connected socket [id: GU9_yL2dWIEuheMbAAAX] 
+28.12.2025, 12:02:26 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 12:03:36 - INFO - New connected socket [id: 4fXi-2dDpJ5hrevHAAAZ] 
+28.12.2025, 12:08:56 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 12:14:20 - INFO - New connected socket [id: DDGKP7jq2zdF_ThiAAAb] 
+28.12.2025, 12:21:53 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 12:37:32 - INFO - New connected socket [id: _U_kjhXKuKI8b-oJAAAd] 
+28.12.2025, 12:43:20 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 12:57:33 - INFO - New connected socket [id: suY9sSebqQEIyqbZAAAf] 
+28.12.2025, 13:02:33 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 13:02:45 - INFO - New connected socket [id: mTl8fvdRX_sIODFgAAAh] 
+28.12.2025, 13:02:46 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: mTl8fvdRX_sIODFgAAAh] 
+28.12.2025, 13:05:06 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 13:05:07 - INFO - New connected socket [id: 4DkUWrdnQ0I1F7ygAAAj] 
+28.12.2025, 13:05:07 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 4DkUWrdnQ0I1F7ygAAAj] 
+28.12.2025, 13:07:48 - INFO - Broadcasting event: board-updated 
+28.12.2025, 13:07:48 - INFO - Emit to all 
+28.12.2025, 13:08:08 - INFO - Broadcasting event: board-updated 
+28.12.2025, 13:08:08 - INFO - Emit to all 
+28.12.2025, 13:08:27 - INFO - Broadcasting event: board-updated 
+28.12.2025, 13:08:27 - INFO - Emit to all 
+28.12.2025, 13:12:21 - INFO - Broadcasting event: board-updated 
+28.12.2025, 13:12:21 - INFO - Emit to all 
+28.12.2025, 13:12:22 - INFO - Broadcasting event: board-updated 
+28.12.2025, 13:12:22 - INFO - Emit to all 
+28.12.2025, 13:35:53 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 14:00:35 - INFO - New connected socket [id: iGKnH9nBHKaKvTxcAAAl] 
+28.12.2025, 14:05:50 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 14:16:51 - INFO - New connected socket [id: 4PR0CEDgUg4CcOzgAAAn] 
+28.12.2025, 14:17:00 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 14:17:02 - INFO - New connected socket [id: xFOQsQS1apQ-mzhTAAAp] 
+28.12.2025, 14:17:02 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: xFOQsQS1apQ-mzhTAAAp] 
+28.12.2025, 14:23:48 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 15:12:10 - INFO - New connected socket [id: WCqOtqs7XiMc-X_RAAAr] 
+28.12.2025, 15:12:13 - INFO - New connected socket [id: iHqR3XIYlxRJD1oiAAAt] 
+28.12.2025, 15:12:13 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: iHqR3XIYlxRJD1oiAAAt] 
+28.12.2025, 15:12:19 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:12:19 - INFO - Emit to all 
+28.12.2025, 15:12:21 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:12:21 - INFO - Emit to all 
+28.12.2025, 15:12:52 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 15:36:11 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:36:11 - INFO - Emit to all 
+28.12.2025, 15:41:03 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:41:03 - INFO - Emit to all 
+28.12.2025, 15:44:09 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 15:44:10 - INFO - New connected socket [id: 9IEKLjI8iITIPpzyAAAv] 
+28.12.2025, 15:44:10 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 9IEKLjI8iITIPpzyAAAv] 
+28.12.2025, 15:44:19 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 15:44:20 - INFO - New connected socket [id: 0PonmYXnBe6LaoSOAAAx] 
+28.12.2025, 15:44:20 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: 0PonmYXnBe6LaoSOAAAx] 
+28.12.2025, 15:51:52 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:51:52 - INFO - Emit to all 
+28.12.2025, 15:52:05 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:52:05 - INFO - Emit to all 
+28.12.2025, 15:56:16 - INFO - Emit to all 
+28.12.2025, 15:56:16 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:56:20 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:56:20 - INFO - Emit to all 
+28.12.2025, 15:56:23 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:56:23 - INFO - Emit to all 
+28.12.2025, 15:56:26 - INFO - Broadcasting event: board-updated 
+28.12.2025, 15:56:26 - INFO - Emit to all 
+28.12.2025, 16:08:33 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:49:16 - INFO - New connected socket [id: 0FokdM0Tvtjv41vZAAAz] 
+28.12.2025, 16:49:26 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:49:28 - INFO - New connected socket [id: _m3QgoDWDEWgJl-RAAA1] 
+28.12.2025, 16:49:28 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: _m3QgoDWDEWgJl-RAAA1] 
+28.12.2025, 16:50:15 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:50:18 - INFO - New connected socket [id: vgiijkOy52VTZ7BTAAA3] 
+28.12.2025, 16:50:18 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: vgiijkOy52VTZ7BTAAA3] 
+28.12.2025, 16:50:24 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:50:26 - INFO - New connected socket [id: S9emLcaiEyqkUzv0AAA5] 
+28.12.2025, 16:50:26 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: S9emLcaiEyqkUzv0AAA5] 
+28.12.2025, 16:50:33 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:50:35 - INFO - New connected socket [id: DLHdy5dEJzvTBy3kAAA7] 
+28.12.2025, 16:50:36 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: DLHdy5dEJzvTBy3kAAA7] 
+28.12.2025, 16:50:39 - INFO - Socket disconnected [id: undefined] 
+28.12.2025, 16:50:40 - INFO - New connected socket [id: Xvqha1KrF_Aps3_oAAA9] 
+28.12.2025, 16:50:40 - INFO - Setting socket.userId = 694c2f9af0fb6f88a289e8e1 for socket [id: Xvqha1KrF_Aps3_oAAA9] 
+28.12.2025, 16:51:09 - INFO - server.js loaded... 
+28.12.2025, 16:51:09 - INFO - Server is running on port: 3030 
+28.12.2025, 16:51:09 - INFO - New connected socket [id: eI-xU1kdjNqZgDgFAAAB] 
+28.12.2025, 16:51:12 - INFO - server.js loaded... 
+28.12.2025, 16:51:12 - INFO - Server is running on port: 3030 
+28.12.2025, 16:51:12 - INFO - New connected socket [id: ep8vsCOtwIgzXIMVAAAB] 

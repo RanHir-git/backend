@@ -18,4 +18,4 @@ boardRoutes.post('/', requireAuth, addBoard)
 boardRoutes.put('/:id', requireAuth, updateBoard)
 boardRoutes.delete('/:id', requireAuth, deleteBoard)
 
-boardRoutes.post('/command', requireAuth, handleAICommand)
+boardRoutes.post('/command', handleAICommand)

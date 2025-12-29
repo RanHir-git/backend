@@ -6,6 +6,17 @@ const OPENROUTER_MODEL = 'openrouter/auto'
 
 export async function handleAICommand(req, res) {
   try {
+    // --- 1. Limit by cookie ---
+    let aiCount = parseInt(req.cookies.aiCount) || 0
+    if (aiCount >= 2) {
+      return res.status(403).send({ error: 'AI chat limit reached' })
+    }
+    aiCount++
+    res.cookie('aiCount', aiCount, {
+      maxAge: 24 * 60 * 60 * 1000, // 1 day
+      httpOnly: true,
+    })
+
     const { prompt } = req.body
     if (!prompt) return res.status(400).send('No prompt provided')
 

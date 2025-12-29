@@ -34,8 +34,7 @@ The JSON object must follow this structure:
 - Use short titles (1-6 words each) to keep the object small.
 - Make sure the JSON is complete and syntactically correct.
 
-User request: "${prompt}"
-`
+User request: "${prompt}"`
 
     const response = await fetch(OPENROUTER_URL, {
       method: 'POST',

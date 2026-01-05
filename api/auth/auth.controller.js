@@ -1,5 +1,6 @@
 import { authService } from './auth.service.js'
 import { logger } from '../../services/logger.service.js'
+import { OAuth2Client } from 'google-auth-library'
 
 export async function login(req, res) {
     try {
@@ -53,13 +54,37 @@ export async function signup(req, res) {
 
 export async function loginWithGoogle(req, res) {
     try {
-        const { email, fullname, googleId, imgUrl } = req.body
+        const { idToken } = req.body
+
+        if (!idToken) {
+            return res.status(400).send({ err: 'Google ID token is required' })
+        }
+
+        // Verify the Google ID token
+        const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
+        
+        const ticket = await client.verifyIdToken({
+            idToken,
+            audience: process.env.GOOGLE_CLIENT_ID,
+        })
+
+        const payload = ticket.getPayload()
+        if (!payload) {
+            throw new Error('Invalid Google token payload')
+        }
+
+        // Extract user information from verified token
+        const { email, name: fullname, sub: googleId, picture: imgUrl } = payload
+
+        if (!email || !googleId) {
+            throw new Error('Missing required user information from Google')
+        }
 
         const user = await authService.loginWithGoogle({
             email,
-            fullname,
+            fullname: fullname || email.split('@')[0],
             googleId,
-            imgUrl
+            imgUrl: imgUrl || null
         })
 
         const loginToken = authService.getLoginToken(user)
